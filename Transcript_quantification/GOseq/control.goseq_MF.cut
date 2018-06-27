@@ -1,0 +1,41 @@
+GO:0005215	0	1	30	1695	transporter activity	MF	0	MF transporter activity
+GO:0015291	0	1	18	353	secondary active transmembrane transporter activity	MF	0	MF secondary active transmembrane transporter activity
+GO:0015293	0	1	14	270	symporter activity	MF	0	MF symporter activity
+GO:0022804	0	1	18	536	active transmembrane transporter activity	MF	0	MF active transmembrane transporter activity
+GO:0022857	0	1	26	1418	transmembrane transporter activity	MF	0	MF transmembrane transporter activity
+GO:0003674	1.11091567842508e-18	1	110	21649	molecular_function	MF	2.10012437252492e-15	MF molecular_function
+GO:0045735	3.80525649720773e-12	1	7	70	nutrient reservoir activity	MF	5.39521950362435e-09	MF nutrient reservoir activity
+GO:0022892	5.15622647555412e-11	1	21	1427	substrate-specific transporter activity	MF	5.48300232844236e-08	MF substrate-specific transporter activity
+GO:0016491	6.22835986452924e-11	1	21	1448	oxidoreductase activity	MF	6.23348910206474e-08	MF oxidoreductase activity
+GO:0008514	8.40402995956757e-11	1	11	230	organic anion transmembrane transporter activity	MF	7.94367587400459e-08	MF organic anion transmembrane transporter activity
+GO:0022891	1.91932519062067e-10	1	19	1227	substrate-specific transmembrane transporter activity	MF	1.71870519964316e-07	MF substrate-specific transmembrane transporter activity
+GO:0008509	3.30521124151745e-09	1	11	315	anion transmembrane transporter activity	MF	2.44499408970339e-06	MF anion transmembrane transporter activity
+GO:0051119	2.75920509058932e-08	0.999999998722685	8	162	sugar transmembrane transporter activity	MF	1.67661126468881e-05	MF sugar transmembrane transporter activity
+GO:0015144	3.26077811312319e-08	0.999999998449987	8	165	carbohydrate transmembrane transporter activity	MF	1.7896412521509e-05	MF carbohydrate transmembrane transporter activity
+GO:0004497	5.49082974552793e-08	1	9	268	monooxygenase activity	MF	2.83093870577007e-05	MF monooxygenase activity
+GO:0003824	9.2160257125492e-08	1	50	9583	catalytic activity	MF	4.48004175638034e-05	MF catalytic activity
+GO:0030246	1.00025506129688e-07	1	9	302	carbohydrate binding	MF	4.72731655914031e-05	MF carbohydrate binding
+GO:0005342	1.51957993078181e-07	0.999999990970848	8	193	organic acid transmembrane transporter activity	MF	6.46353323558041e-05	MF organic acid transmembrane transporter activity
+GO:0046943	1.51957993078181e-07	0.999999990970848	8	193	carboxylic acid transmembrane transporter activity	MF	6.46353323558041e-05	MF carboxylic acid transmembrane transporter activity
+GO:0015075	3.57688970441071e-07	0.999999944693267	14	1062	ion transmembrane transporter activity	MF	0.000138311821433736	MF ion transmembrane transporter activity
+GO:0016705	4.79564435050396e-07	0.999999961479864	9	343	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	MF	0.000177376289085814	MF oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+GO:0008028	1.70831389668589e-06	0.999999949671146	5	62	monocarboxylic acid transmembrane transporter activity	MF	0.000581305052764275	MF monocarboxylic acid transmembrane transporter activity
+GO:0015355	7.44083740974473e-06	0.999999945810967	3	12	secondary active monocarboxylate transmembrane transporter activity	MF	0.00243458476325763	MF secondary active monocarboxylate transmembrane transporter activity
+GO:0015347	7.78401332867144e-06	0.999999943684085	3	11	sodium-independent organic anion transmembrane transporter activity	MF	0.00248427182030357	MF sodium-independent organic anion transmembrane transporter activity
+GO:0016712	8.46478977893911e-06	0.999999804829127	4	56	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen	MF	0.00257178452319411	MF oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen
+GO:0070330	8.46478977893911e-06	0.999999804829127	4	56	aromatase activity	MF	0.00257178452319411	MF aromatase activity
+GO:0050660	2.27779942513757e-05	0.999998300721342	6	174	flavin adenine dinucleotide binding	MF	0.0064590799032151	MF flavin adenine dinucleotide binding
+GO:0050662	2.46604022999388e-05	0.999997023241871	8	358	coenzyme binding	MF	0.0068782308972321	MF coenzyme binding
+GO:0005506	2.84197760459669e-05	0.999997138752937	7	357	iron ion binding	MF	0.00779893660719486	MF iron ion binding
+GO:0020037	3.18151575577578e-05	0.999996736049102	7	406	heme binding	MF	0.00845786079199518	MF heme binding
+GO:0046906	3.64228921891601e-05	0.999996183106072	7	412	tetrapyrrole binding	MF	0.00938938011676318	MF tetrapyrrole binding
+GO:0016614	8.18541552662407e-05	0.999990201155744	7	331	oxidoreductase activity, acting on CH-OH group of donors	MF	0.0198952371099974	MF oxidoreductase activity, acting on CH-OH group of donors
+GO:0048037	0.000130125981155448	0.999980005133726	8	446	cofactor binding	MF	0.0291310979391947	MF cofactor binding
+GO:1901505	0.000139647870241482	0.999989313353357	5	167	carbohydrate derivative transmembrane transporter activity	MF	0.0308567384972543	MF carbohydrate derivative transmembrane transporter activity
+GO:0015129	0.00014955205807409	0.999996565784601	3	34	lactate transmembrane transporter activity	MF	0.0326215220009303	MF lactate transmembrane transporter activity
+GO:0015145	0.00018866785843017	0.999995301951383	3	35	monosaccharide transmembrane transporter activity	MF	0.0401249367916364	MF monosaccharide transmembrane transporter activity
+GO:0015574	0.000195993421631305	0.999989600856424	4	104	trehalose transmembrane transporter activity	MF	0.0405060818892824	MF trehalose transmembrane transporter activity
+GO:0015151	0.000197602256777386	0.999989490572855	4	105	alpha-glucoside transmembrane transporter activity	MF	0.0405060818892824	MF alpha-glucoside transmembrane transporter activity
+GO:0015154	0.000213901208720441	0.999988381946527	4	106	disaccharide transmembrane transporter activity	MF	0.0414239326097857	MF disaccharide transmembrane transporter activity
+GO:0015157	0.000213901208720441	0.999988381946527	4	106	oligosaccharide transmembrane transporter activity	MF	0.0414239326097857	MF oligosaccharide transmembrane transporter activity
+GO:0042947	0.000214253324888982	0.999988357792892	4	106	glucoside transmembrane transporter activity	MF	0.0414239326097857	MF glucoside transmembrane transporter activity

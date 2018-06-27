@@ -1,0 +1,28 @@
+GO:0055085	0	1	26	1200	transmembrane transport	BP	0	BP transmembrane transport
+GO:0008150	1.30490217991479e-11	1	92	19573	biological_process	BP	1.58582897779073e-08	BP biological_process
+GO:0006811	4.23394852554098e-10	1	19	1124	ion transport	BP	3.60182001067771e-07	BP ion transport
+GO:0015672	8.79440234785836e-10	1	12	444	monovalent inorganic cation transport	BP	6.80127097938464e-07	BP monovalent inorganic cation transport
+GO:0006814	5.64571735367814e-09	1	9	225	sodium ion transport	BP	4.00234312731166e-06	BP sodium ion transport
+GO:0015711	7.39347468081521e-09	1	11	309	organic anion transport	BP	5.0317031287756e-06	BP organic anion transport
+GO:0006820	5.90944107200386e-08	1	11	385	anion transport	BP	2.95715383526687e-05	BP anion transport
+GO:0051234	1.10838655570203e-07	0.999999967744422	31	3571	establishment of localization	BP	5.09678077262548e-05	BP establishment of localization
+GO:0055114	1.32128084892049e-07	0.999999978164162	16	1085	oxidation-reduction process	BP	5.9158611482982e-05	BP oxidation-reduction process
+GO:0006812	1.90577162460293e-07	0.999999974496511	13	793	cation transport	BP	7.90848741975471e-05	BP cation transport
+GO:0006810	2.00614255545634e-07	0.999999940428648	30	3478	transport	BP	8.12678796155574e-05	BP transport
+GO:0051179	2.66018945870956e-07	0.999999916454786	32	3894	localization	BP	0.000105256891745313	BP localization
+GO:0015718	4.64027977774222e-07	0.999999982980584	6	79	monocarboxylic acid transport	BP	0.000175443822530014	BP monocarboxylic acid transport
+GO:0015849	8.24210530293705e-07	1	8	229	organic acid transport	BP	0.00029214829088369	BP organic acid transport
+GO:0046942	8.24210530293705e-07	1	8	229	carboxylic acid transport	BP	0.00029214829088369	BP carboxylic acid transport
+GO:0030001	1.48077401192447e-06	0.99999982896685	10	501	metal ion transport	BP	0.000514161000793529	BP metal ion transport
+GO:0071702	7.88472306902508e-06	0.999997881916871	19	1811	organic substance transport	BP	0.00248427182030357	BP organic substance transport
+GO:0006629	8.79655478609777e-06	0.999998169508218	14	1094	lipid metabolic process	BP	0.0026256944408889	BP lipid metabolic process
+GO:0043252	9.96305159554254e-06	0.999999917305096	3	14	sodium-independent organic anion transport	BP	0.00292260965252691	BP sodium-independent organic anion transport
+GO:0008643	1.401812536115e-05	0.999999040515315	6	179	carbohydrate transport	BP	0.00404244720160349	BP carbohydrate transport
+GO:0008152	3.34909653966624e-05	0.999983469397883	54	13571	metabolic process	BP	0.00876638900398177	BP metabolic process
+GO:0015727	4.91485434576232e-05	0.999999272066725	3	18	lactate transport	BP	0.0122972546821765	BP lactate transport
+GO:0035873	4.91485434576232e-05	0.999999272066725	3	18	lactate transmembrane transport	BP	0.0122972546821765	BP lactate transmembrane transport
+GO:0044255	5.87265246406186e-05	0.999988355767929	11	814	cellular lipid metabolic process	BP	0.0144807694237027	BP cellular lipid metabolic process
+GO:1901135	0.000181224456588396	0.999962659489759	10	851	carbohydrate derivative metabolic process	BP	0.0390297835999363	BP carbohydrate derivative metabolic process
+GO:0015771	0.000195993421631305	0.999989600856424	4	104	trehalose transport	BP	0.0405060818892824	BP trehalose transport
+GO:0015766	0.000213901208720441	0.999988381946527	4	106	disaccharide transport	BP	0.0414239326097857	BP disaccharide transport
+GO:0015772	0.000213901208720441	0.999988381946527	4	106	oligosaccharide transport	BP	0.0414239326097857	BP oligosaccharide transport

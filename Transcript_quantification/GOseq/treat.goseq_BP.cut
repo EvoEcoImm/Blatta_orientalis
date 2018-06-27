@@ -1,0 +1,101 @@
+GO:0006952	8.62186841501471e-18	1	28	578	defense response	BP	7.33462346065301e-14	BP defense response
+GO:0042742	2.32573212304087e-14	1	15	177	defense response to bacterium	BP	1.00696579307235e-10	BP defense response to bacterium
+GO:0098542	2.36738166938369e-14	1	17	248	defense response to other organism	BP	1.00696579307235e-10	BP defense response to other organism
+GO:0043207	9.76010979311979e-14	1	21	487	response to external biotic stimulus	BP	3.15135780967331e-10	BP response to external biotic stimulus
+GO:0009617	1.11132872093804e-13	1	15	195	response to bacterium	BP	3.15135780967331e-10	BP response to bacterium
+GO:0009607	1.43711840722047e-13	1	21	497	response to biotic stimulus	BP	3.49301894006416e-10	BP response to biotic stimulus
+GO:0051707	2.97615049923536e-13	1	19	417	response to other organism	BP	6.3295280742488e-10	BP response to other organism
+GO:0006955	5.93036987102694e-12	1	20	510	immune response	BP	1.12110347761836e-08	BP immune response
+GO:0045087	9.94678767525676e-12	1	17	314	innate immune response	BP	1.69234645506818e-08	BP innate immune response
+GO:0009605	1.72563302282982e-11	1	27	1092	response to external stimulus	BP	2.66908365912969e-08	BP response to external stimulus
+GO:0006950	4.89083859274427e-11	1	41	2548	response to stress	BP	6.93439398474592e-08	BP response to stress
+GO:0050896	6.05118239559628e-11	1	52	3825	response to stimulus	BP	7.91960132912885e-08	BP response to stimulus
+GO:0007311	1.05263288404999e-10	0.999999999998607	7	27	maternal specification of dorsal/ventral axis, oocyte, germ-line encoded	BP	1.27924970637333e-07	BP maternal specification of dorsal/ventral axis, oocyte, germ-line encoded
+GO:0002376	1.54988860916826e-10	1	23	801	immune system process	BP	1.75798698642592e-07	BP immune system process
+GO:0008063	2.02649714644258e-10	0.99999999999542	8	41	Toll signaling pathway	BP	2.02816602644553e-07	BP Toll signaling pathway
+GO:0008150	2.91233039737355e-09	1	139	19573	biological_process	BP	2.15436475569189e-06	BP biological_process
+GO:0007310	1.3582561520793e-08	0.999999999596476	7	49	oocyte dorsal/ventral axis specification	BP	8.25334648981329e-06	BP oocyte dorsal/ventral axis specification
+GO:0016485	4.00218605188347e-08	0.999999996912637	10	155	protein processing	BP	2.19655462860469e-05	BP protein processing
+GO:0051604	1.03788609407578e-07	0.999999991090118	10	171	protein maturation	BP	5.0453125727444e-05	BP protein maturation
+GO:0001817	1.54940876024881e-07	0.99999998604873	10	195	regulation of cytokine production	BP	7.32267795746479e-05	BP regulation of cytokine production
+GO:0030203	1.65724259424413e-07	0.999999990108323	8	104	glycosaminoglycan metabolic process	BP	7.62062851309992e-05	BP glycosaminoglycan metabolic process
+GO:0007309	1.8182045165772e-07	0.999999991861206	7	66	oocyte axis specification	BP	8.14077148553803e-05	BP oocyte axis specification
+GO:0030212	2.93152755566915e-07	0.999999994519122	5	23	hyaluronan metabolic process	BP	0.000127889768800397	BP hyaluronan metabolic process
+GO:0051704	3.74817962090352e-07	0.999999917712089	19	970	multi-organism process	BP	0.000159428820175131	BP multi-organism process
+GO:0031347	4.39492928252654e-07	0.999999942551682	12	325	regulation of defense response	BP	0.000182378845885138	BP regulation of defense response
+GO:0006022	5.03130501745306e-07	0.999999952556907	10	225	aminoglycan metabolic process	BP	0.00019907586876034	BP aminoglycan metabolic process
+GO:0002682	5.77972185717345e-07	0.999999890051783	16	615	regulation of immune system process	BP	0.000223491335631702	BP regulation of immune system process
+GO:0009950	6.24646795946238e-07	0.999999966097586	7	74	dorsal/ventral axis specification	BP	0.000236172013027318	BP dorsal/ventral axis specification
+GO:0010496	8.8132214241822e-07	0.999999990516428	4	13	intercellular transport	BP	0.000325974237632687	BP intercellular transport
+GO:0032101	1.09942756889711e-06	0.999999842786893	12	409	regulation of response to external stimulus	BP	0.000397992779940754	BP regulation of response to external stimulus
+GO:0002684	1.86540640335317e-06	0.999999748732367	11	308	positive regulation of immune system process	BP	0.000638230560378387	BP positive regulation of immune system process
+GO:0006508	1.87560409186078e-06	0.999999519850798	20	1036	proteolysis	BP	0.000638230560378387	BP proteolysis
+GO:1901564	1.94981916881436e-06	0.999999170601486	50	4708	organonitrogen compound metabolic process	BP	0.000650474967415833	BP organonitrogen compound metabolic process
+GO:0031638	2.09364936562897e-06	0.999999938809122	5	31	zymogen activation	BP	0.00068502596743868	BP zymogen activation
+GO:0055114	2.30301705791329e-06	0.999999402060839	20	1085	oxidation-reduction process	BP	0.000739311928742201	BP oxidation-reduction process
+GO:0050707	3.14339450109126e-06	0.999999897478395	5	40	regulation of cytokine secretion	BP	0.000955030607885119	BP regulation of cytokine secretion
+GO:0008152	4.0015456901174e-06	0.999998112737692	92	13571	metabolic process	BP	0.00119442628722206	BP metabolic process
+GO:0006953	4.18036750570278e-06	0.999999926457787	4	20	acute-phase response	BP	0.00122628918520737	BP acute-phase response
+GO:0051893	4.92838003729759e-06	0.99999982251225	5	43	regulation of focal adhesion assembly	BP	0.00136429966697529	BP regulation of focal adhesion assembly
+GO:0090109	4.92838003729759e-06	0.99999982251225	5	43	regulation of cell-substrate junction assembly	BP	0.00136429966697529	BP regulation of cell-substrate junction assembly
+GO:0080134	5.17841757252941e-06	0.999998755018649	17	1055	regulation of response to stress	BP	0.00139850153300024	BP regulation of response to stress
+GO:1903391	6.14482960087738e-06	0.999999767917656	5	44	regulation of adherens junction organization	BP	0.00163356454420825	BP regulation of adherens junction organization
+GO:0050776	7.16657665267676e-06	0.999998871736696	11	330	regulation of immune response	BP	0.0018758790025945	BP regulation of immune response
+GO:0002526	9.57281635749354e-06	0.999999785254493	4	25	acute inflammatory response	BP	0.00239517496332934	BP acute inflammatory response
+GO:1901888	1.15201321689472e-05	0.999999498241768	5	52	regulation of cell junction assembly	BP	0.00284063085105025	BP regulation of cell junction assembly
+GO:0009056	1.32958622343774e-05	0.999995359306194	26	1974	catabolic process	BP	0.00323165428650995	BP catabolic process
+GO:0034097	1.37264794140405e-05	0.999998778684539	7	116	response to cytokine	BP	0.00328932846127443	BP response to cytokine
+GO:0050715	2.15589469452866e-05	0.999999404342507	4	25	positive regulation of cytokine secretion	BP	0.00489071897769475	BP positive regulation of cytokine secretion
+GO:0002697	2.33689564220373e-05	0.999997205624662	8	193	regulation of immune effector process	BP	0.00523157137584925	BP regulation of immune effector process
+GO:0009615	2.51882349577226e-05	0.999998110219427	6	91	response to virus	BP	0.00556561856585315	BP response to virus
+GO:0050778	2.6656893996241e-05	0.999996753814679	8	190	positive regulation of immune response	BP	0.00576125521155261	BP positive regulation of immune response
+GO:0001818	2.67508617440141e-05	0.999998590444286	5	67	negative regulation of cytokine production	BP	0.00576125521155261	BP negative regulation of cytokine production
+GO:0048583	2.8564491620978e-05	0.999988912951155	29	2562	regulation of response to stimulus	BP	0.00607495325549149	BP regulation of response to stimulus
+GO:0001819	3.22729426314837e-05	0.999997471728097	6	88	positive regulation of cytokine production	BP	0.00662463953510764	BP positive regulation of cytokine production
+GO:0001935	3.25528578786414e-05	0.999998953659656	4	41	endothelial cell proliferation	BP	0.00662463953510764	BP endothelial cell proliferation
+GO:0032103	3.48397606740556e-05	0.999997198702684	6	127	positive regulation of response to external stimulus	BP	0.00697369044833391	BP positive regulation of response to external stimulus
+GO:0032649	3.83721873881983e-05	0.999999535631412	3	10	regulation of interferon-gamma production	BP	0.00759144646770705	BP regulation of interferon-gamma production
+GO:0045766	4.20238021830085e-05	0.999998584743703	4	32	positive regulation of angiogenesis	BP	0.00821831000392767	BP positive regulation of angiogenesis
+GO:0030155	4.3990135935938e-05	0.999993264329486	9	300	regulation of cell adhesion	BP	0.00850509287288691	BP regulation of cell adhesion
+GO:0006954	4.99268972591459e-05	0.999995716103897	6	127	inflammatory response	BP	0.00954445202210234	BP inflammatory response
+GO:0010810	5.45249183900916e-05	0.999995253788762	6	120	regulation of cell-substrate adhesion	BP	0.010196919460217	BP regulation of cell-substrate adhesion
+GO:2000352	5.55800269460984e-05	0.999999237421605	3	10	negative regulation of endothelial cell apoptotic process	BP	0.0102786802006622	BP negative regulation of endothelial cell apoptotic process
+GO:0009798	5.69214914172427e-05	0.999993615405065	7	147	axis specification	BP	0.0104135726341179	BP axis specification
+GO:1901135	6.0825927998213e-05	0.999983852934466	15	851	carbohydrate derivative metabolic process	BP	0.0110094929676765	BP carbohydrate derivative metabolic process
+GO:1903510	6.28125067925163e-05	0.999996027465309	5	70	mucopolysaccharide metabolic process	BP	0.0112493893743987	BP mucopolysaccharide metabolic process
+GO:1904018	6.86877613824834e-05	0.99999730949705	4	44	positive regulation of vasculature development	BP	0.0121330315861209	BP positive regulation of vasculature development
+GO:0009253	7.05989260036422e-05	0.999998813704769	3	18	peptidoglycan catabolic process	BP	0.0121330315861209	BP peptidoglycan catabolic process
+GO:0061058	7.86800970555336e-05	0.999999865407007	2	3	regulation of peptidoglycan recognition protein signaling pathway	BP	0.0129967298184743	BP regulation of peptidoglycan recognition protein signaling pathway
+GO:0061060	7.86800970555336e-05	0.999999865407007	2	3	negative regulation of peptidoglycan recognition protein signaling pathway	BP	0.0129967298184743	BP negative regulation of peptidoglycan recognition protein signaling pathway
+GO:1900425	7.86800970555336e-05	0.999999865407007	2	3	negative regulation of defense response to bacterium	BP	0.0129967298184743	BP negative regulation of defense response to bacterium
+GO:0019835	8.53131818814337e-05	0.999998471346078	3	18	cytolysis	BP	0.0139569084281799	BP cytolysis
+GO:0001952	9.43486719379589e-05	0.999993444553104	5	84	regulation of cell-matrix adhesion	BP	0.0152880790890708	BP regulation of cell-matrix adhesion
+GO:2000351	9.60163938311063e-05	0.99999830515952	3	13	regulation of endothelial cell apoptotic process	BP	0.0154115370249287	BP regulation of endothelial cell apoptotic process
+GO:0045785	9.78917976249954e-05	0.99999050500435	6	127	positive regulation of cell adhesion	BP	0.0155657106989876	BP positive regulation of cell adhesion
+GO:0002831	0.000104593693619452	0.999989711098786	6	137	regulation of response to biotic stimulus	BP	0.0163262119563427	BP regulation of response to biotic stimulus
+GO:0000270	0.000107557596907239	0.999997886612403	3	20	peptidoglycan metabolic process	BP	0.0166362268525433	BP peptidoglycan metabolic process
+GO:0043032	0.000111118348641514	1	2	2	positive regulation of macrophage activation	BP	0.0168800677123815	BP positive regulation of macrophage activation
+GO:0031589	0.000128034386293169	0.999987007858846	6	110	cell-substrate adhesion	BP	0.018942409116452	BP cell-substrate adhesion
+GO:0001525	0.000130960894561837	0.999986558182862	6	144	angiogenesis	BP	0.0190441765818385	BP angiogenesis
+GO:0002699	0.00014232579504007	0.999989291896247	5	68	positive regulation of immune effector process	BP	0.0203490006454769	BP positive regulation of immune effector process
+GO:0007166	0.000151657527548225	0.999950264713706	18	1221	cell surface receptor signaling pathway	BP	0.0215025097808792	BP cell surface receptor signaling pathway
+GO:0051894	0.000156222736913863	0.999996620024988	3	16	positive regulation of focal adhesion assembly	BP	0.0219667243458881	BP positive regulation of focal adhesion assembly
+GO:1901890	0.00017163789652566	0.999996098524437	3	18	positive regulation of cell junction assembly	BP	0.023936452225308	BP positive regulation of cell junction assembly
+GO:0032963	0.000177267114875851	0.999990992037519	4	56	collagen metabolic process	BP	0.0245205096951035	BP collagen metabolic process
+GO:0007160	0.000193222394076687	0.999984414717418	5	74	cell-matrix adhesion	BP	0.0265119823614577	BP cell-matrix adhesion
+GO:0007249	0.000198964937792267	0.999995431058705	3	14	I-kappaB kinase/NF-kappaB signaling	BP	0.027081515612781	BP I-kappaB kinase/NF-kappaB signaling
+GO:0044259	0.000203014738355887	0.9999893011108	4	57	multicellular organismal macromolecule metabolic process	BP	0.0274134345903735	BP multicellular organismal macromolecule metabolic process
+GO:1903393	0.000212035638369335	0.999994861022237	3	17	positive regulation of adherens junction organization	BP	0.0284060972536682	BP positive regulation of adherens junction organization
+GO:0019752	0.000218090809424184	0.999934960448977	15	800	carboxylic acid metabolic process	BP	0.0289890393089302	BP carboxylic acid metabolic process
+GO:0010811	0.000234972426072839	0.999987257726077	4	47	positive regulation of cell-substrate adhesion	BP	0.0307604792482603	BP positive regulation of cell-substrate adhesion
+GO:0031349	0.000239400221520199	0.999972571464314	6	134	positive regulation of defense response	BP	0.0310927890759134	BP positive regulation of defense response
+GO:0010033	0.000253460241377542	0.999919729466873	16	1011	response to organic substance	BP	0.0326694889908902	BP response to organic substance
+GO:0055085	0.000294673273305029	0.999901502942581	17	1200	transmembrane transport	BP	0.037414709492625	BP transmembrane transport
+GO:0044236	0.000300803576978474	0.999982341978338	4	63	multicellular organism metabolic process	BP	0.0379101633978648	BP multicellular organism metabolic process
+GO:1904036	0.000307871970084506	0.999991453512221	3	18	negative regulation of epithelial cell apoptotic process	BP	0.038234552547575	BP negative regulation of epithelial cell apoptotic process
+GO:0043552	0.000337869317303682	0.999990394097154	3	17	positive regulation of phosphatidylinositol 3-kinase activity	BP	0.0410607754614632	BP positive regulation of phosphatidylinositol 3-kinase activity
+GO:0090218	0.000337869317303682	0.999990394097154	3	17	positive regulation of lipid kinase activity	BP	0.0410607754614632	BP positive regulation of lipid kinase activity
+GO:1901136	0.000365655040615851	0.999954418183167	6	169	carbohydrate derivative catabolic process	BP	0.0435052787485181	BP carbohydrate derivative catabolic process
+GO:0009808	0.000396395431205899	0.999987768357722	3	21	lignin metabolic process	BP	0.0458794004526338	BP lignin metabolic process
+GO:0046274	0.000396395431205899	0.999987768357722	3	21	lignin catabolic process	BP	0.0458794004526338	BP lignin catabolic process
+GO:0014068	0.000426181136598649	0.999986677082677	3	19	positive regulation of phosphatidylinositol 3-kinase signaling	BP	0.0489935530951987	BP positive regulation of phosphatidylinositol 3-kinase signaling

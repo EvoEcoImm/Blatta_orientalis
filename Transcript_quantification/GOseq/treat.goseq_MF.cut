@@ -1,0 +1,33 @@
+GO:0061134	2.006535963724e-10	0.999999999987868	12	165	peptidase regulator activity	MF	2.02816602644553e-07	MF peptidase regulator activity
+GO:0003674	2.30950554342168e-10	1	147	21649	molecular_function	MF	2.18299596198758e-07	MF molecular_function
+GO:0004867	5.72731678681056e-10	0.999999999973465	10	111	serine-type endopeptidase inhibitor activity	MF	5.12866146372604e-07	MF serine-type endopeptidase inhibitor activity
+GO:0030414	8.89451497711803e-10	0.999999999947718	11	150	peptidase inhibitor activity	MF	7.20625132479458e-07	MF peptidase inhibitor activity
+GO:0004252	4.08387211291537e-09	1	11	213	serine-type endopeptidase activity	MF	2.89512500538092e-06	MF serine-type endopeptidase activity
+GO:0061783	6.7453954061964e-09	0.999999999887115	6	34	peptidoglycan muralytic activity	MF	4.59064629764102e-06	MF peptidoglycan muralytic activity
+GO:0004866	9.40574681701554e-09	0.999999999383146	10	141	endopeptidase inhibitor activity	MF	6.15497601325778e-06	MF endopeptidase inhibitor activity
+GO:0061135	1.23627576816396e-08	0.999999999164562	10	144	endopeptidase regulator activity	MF	7.79036885908951e-06	MF endopeptidase regulator activity
+GO:0008236	2.82269412423078e-08	1	11	249	serine-type peptidase activity	MF	1.65604544240215e-05	MF serine-type peptidase activity
+GO:0017171	3.99070561826328e-08	1	11	255	serine hydrolase activity	MF	2.19655462860469e-05	MF serine hydrolase activity
+GO:0004857	4.61217297257405e-08	1	12	284	enzyme inhibitor activity	MF	2.44469131653661e-05	MF enzyme inhibitor activity
+GO:0070011	4.74167235486706e-08	0.999999990691187	20	1068	peptidase activity, acting on L-amino acid peptides	MF	2.44469131653661e-05	MF peptidase activity, acting on L-amino acid peptides
+GO:0008233	7.62262679188744e-08	0.999999984219089	20	1097	peptidase activity	MF	3.81445212462273e-05	MF peptidase activity
+GO:0004175	4.86386095565471e-07	0.99999991448303	15	775	endopeptidase activity	MF	0.000197032691189308	MF endopeptidase activity
+GO:0005243	1.24705990401415e-06	0.999999984768191	4	15	gap junction channel activity	MF	0.000442030775143682	MF gap junction channel activity
+GO:0022829	2.87871747952718e-06	0.999999954786081	4	18	wide pore channel activity	MF	0.000907009244382879	MF wide pore channel activity
+GO:0003824	3.06061394024544e-06	0.999998508017644	74	9583	catalytic activity	MF	0.000946787010533381	MF catalytic activity
+GO:0046914	8.48192023665057e-06	0.999996982467814	28	2663	transition metal ion binding	MF	0.00215390135681153	MF transition metal ion binding
+GO:0030246	1.76112954999011e-05	0.999997605254644	9	302	carbohydrate binding	MF	0.00404917002209888	MF carbohydrate binding
+GO:0003796	3.21606343298206e-05	0.999999592999696	3	16	lysozyme activity	MF	0.00662463953510764	MF lysozyme activity
+GO:0004553	5.45385959139386e-05	0.999992628619711	8	227	hydrolase activity, hydrolyzing O-glycosyl compounds	MF	0.010196919460217	MF hydrolase activity, hydrolyzing O-glycosyl compounds
+GO:0016705	7.02685178257672e-05	0.999988541815097	9	343	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen	MF	0.0121330315861209	MF oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen
+GO:0008745	7.05989260036422e-05	0.999998813704769	3	18	N-acetylmuramoyl-L-alanine amidase activity	MF	0.0121330315861209	MF N-acetylmuramoyl-L-alanine amidase activity
+GO:0005539	7.14880532791915e-05	0.999993438858072	6	138	glycosaminoglycan binding	MF	0.0121629773849216	MF glycosaminoglycan binding
+GO:0004040	0.000102420798218164	0.999999717289432	2	4	amidase activity	MF	0.0161350690822578	MF amidase activity
+GO:0016798	0.000109399116455211	0.999983611032352	8	248	hydrolase activity, acting on glycosyl bonds	MF	0.0167686177240447	MF hydrolase activity, acting on glycosyl bonds
+GO:0030234	0.000130705414027948	0.999966845186246	13	654	enzyme regulator activity	MF	0.0190441765818385	MF enzyme regulator activity
+GO:0016787	0.000132341039786458	0.999936874207101	38	4755	hydrolase activity	MF	0.0190817834824305	MF hydrolase activity
+GO:0005506	0.000235033637138464	0.99996041255942	8	357	iron ion binding	MF	0.0307604792482603	MF iron ion binding
+GO:0020037	0.00026508468474822	0.99995448754979	8	406	heme binding	MF	0.0339109084684677	MF heme binding
+GO:0046906	0.000305740161098846	0.999946373954988	8	412	tetrapyrrole binding	MF	0.038234552547575	MF tetrapyrrole binding
+GO:0042943	0.000363338315029481	0.999998656359817	2	3	D-amino acid transmembrane transporter activity	MF	0.0435052787485181	MF D-amino acid transmembrane transporter activity
+GO:0052716	0.000396395431205899	0.999987768357722	3	21	hydroquinone:oxygen oxidoreductase activity	MF	0.0458794004526338	MF hydroquinone:oxygen oxidoreductase activity
