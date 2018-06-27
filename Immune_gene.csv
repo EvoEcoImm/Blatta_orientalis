@@ -1,0 +1,468 @@
+Category,Protein_Name,Gene_ID,E-value(Hmmsearch),E-value(best_domain_hmmsearch),Blastp_target_name,E-value(Blastp),Blastp_target_full_name,Pfam_family_id,Pfam_family_name,E-value(Pfam),Zn_Immune_protein_name,Zn_Immune_id,Predicted_protein_type
+AMP,Attacin,TRINITY_DN144643_c0_g1,1.4E-12,5.1E-09,ATTB_DROME,0.0000967,Attacin-B,PF03769.12,"Attacin, C-terminal region",6E-19,Attacin,Znev_02297,5prime_partial
+AMP,Attacin,TRINITY_DN198255_c0_g1,1.8E-11,0.000000018,ATTA_DROME,1.22E-09,Attacin-A,PF03769.12,"Attacin, C-terminal region",1E-23,,,complete
+AMP,Attacin,TRINITY_DN207862_c0_g2,8.5E-10,9.1E-10,HOL2_HOLDI,0.000286,Holotricin-2,PF06286.8,Coleoptericin,0.0000049,Diptericin,Znev_09129,complete
+AMP,DEFs,TRINITY_DN138632_c0_g1,8.7E-17,1E-16,DEF1_HOLDI,2.16E-11,Holotricin-1,PF01097.15,Arthropod defensin,1.6E-09,,,5prime_partial
+AMP,DEFs,TRINITY_DN199108_c0_g1,7.8E-18,9E-18,DEFI_ORYRH,4.18E-11,Defensin,PF01097.15,Arthropod defensin,2.9E-12,,,5prime_partial
+AMP,DEFs,TRINITY_DN200357_c0_g1,5.3E-20,5.4E-20,DEFI_ORYRH,3.02E-12,Defensin,PF01097.15,Arthropod defensin,3.9E-12,,,complete
+AMP,DROs,TRINITY_DN210445_c4_g2,1.2E-14,1.2E-14,DMYC_DROME,1.3E-28,Drosomycin,PF00304.17,Gamma-thionin family,8.2E-13,,,complete
+AMP,Termicin,TRINITY_DN208822_c2_g4,1.3E-28,1.9E-28,TERN_PSEUS,9.99E-11,Termicin,PF11415.5,Antifungal peptide termicin,5.6E-16,,,5prime_partial
+AMP,Termicin,TRINITY_DN238294_c0_g1,5.2E-19,5.7E-19,TERN_PSEUS,0.000019,Termicin,PF11415.5,Antifungal peptide termicin,1.4E-09,,,5prime_partial
+Pattern_Recongnition,GNBP,TRINITY_DN201583_c0_g1,3.1E-70,3.8E-70,BGBP_PENMO,1.35E-80,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,3.5E-12,,,5prime_partial
+Pattern_Recongnition,GNBP,TRINITY_DN204546_c3_g3,7.2E-72,8.5E-72,BGBP_PENMO,4.23E-80,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,2.5E-18,,,complete
+Pattern_Recongnition,GNBP,TRINITY_DN208082_c3_g2,1.4E-94,1.7E-94,BGBP_PENMO,2.17E-111,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,4.5E-17,GNBP,"Znev_03259,Znev_03257",5prime_partial
+Pattern_Recongnition,GNBP,TRINITY_DN209017_c1_g1,1.4E-112,1.7E-112,BGBP_BOMMO,1.3E-123,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,0.000011,GNBP,Znev_03260,complete
+Pattern_Recongnition,GNBP,TRINITY_DN209559_c7_g2,3.2E-80,3.9E-80,BGBP_PENMO,5.7E-78,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,2.1E-17,GNBP,Znev_00933,complete
+Pattern_Recongnition,GNBP,TRINITY_DN210026_c1_g1,2.2E-38,2.4E-38,BGBP_PENMO,5.07E-51,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,2.1E-09,,,5prime_partial
+Pattern_Recongnition,GNBP,TRINITY_DN210026_c2_g1,4.4E-73,5E-73,BGBP_PENMO,1.29E-83,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,4.3E-19,GNBP,Znev_00932,5prime_partial
+Pattern_Recongnition,GNBP,TRINITY_DN213231_c4_g1,1.6E-44,1.8E-44,BGBP_PENMO,2.38E-45,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,5E-20,,,internal
+Pattern_Recongnition,GNBP,TRINITY_DN213231_c6_g1,4.4E-98,5.1E-98,BGBP_PENMO,1.9E-115,"Beta-1,3-glucan-binding protein",PF00722.18,Glycosyl hydrolases family 16,2.3E-19,GNBP,"Znev_03259,Znev_03257",5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN172177_c0_g1,3E-65,3.4E-65,PGSB1_DROME,6.37E-60,Peptidoglycan-recognition protein SB1,PF01510.22,N-acetylmuramoyl-L-alanine amidase,1.2E-20,,,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN183258_c0_g2,1.4E-50,1.5E-50,PGRP3_HUMAN,2.78E-36,Peptidoglycan recognition protein 3,PF01510.22,N-acetylmuramoyl-L-alanine amidase,0.00000022,,,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN204133_c0_g1,4.8E-64,5E-64,PGPSD_DROME,1.55E-51,Peptidoglycan-recognition protein SD,PF01510.22,N-acetylmuramoyl-L-alanine amidase,2.7E-13,,,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN204473_c0_g1,4.4E-63,5.6E-63,PGPLB_DROME,1.44E-51,Peptidoglycan-recognition protein LB,PF01510.22,N-acetylmuramoyl-L-alanine amidase,7E-17,,,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN206082_c0_g1,4E-22,4.5E-22,PGSC2_DROSI,6.95E-18,Peptidoglycan-recognition protein SC2,PF01510.22,N-acetylmuramoyl-L-alanine amidase,0.0000011,,,internal
+Pattern_Recongnition,PGRPs,TRINITY_DN206082_c6_g1,2.3E-48,2.5E-48,PGSC2_DROME,2.67E-36,Peptidoglycan-recognition protein SC2,PF01510.22,N-acetylmuramoyl-L-alanine amidase,2.6E-10,,,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN206097_c5_g1,1.3E-64,1.4E-64,PGPLF_DROME,2.24E-51,Peptidoglycan-recognition protein LF,PF01510.22,N-acetylmuramoyl-L-alanine amidase,6E-10,PGRP,Znev_08618,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN206875_c0_g1,5.7E-64,6.4E-64,PGRP2_HOLDI,1.13E-58,Peptidoglycan-recognition protein 2,PF01510.22,N-acetylmuramoyl-L-alanine amidase,1.6E-13,PGRP,Znev_07518,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN208425_c4_g1,1.4E-55,1.4E-55,PGPLF_DROME,3.96E-42,Peptidoglycan-recognition protein LF,PF01510.22,N-acetylmuramoyl-L-alanine amidase,0.0000006,,,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN208828_c7_g1,1.2E-128,2.6E-63,PGRP3_MOUSE,2.19E-62,Peptidoglycan recognition protein 3,PF01510.22,N-acetylmuramoyl-L-alanine amidase,3.4E-18,PGRP,Znev_09910,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN209777_c13_g2,1E-61,1.2E-61,PGSC2_DROSI,6.95E-53,Peptidoglycan-recognition protein SC2,PF01510.22,N-acetylmuramoyl-L-alanine amidase,2.6E-17,PGRP,Znev_07984,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN211097_c8_g1,2.4E-63,2.8E-63,PGPLB_DROME,6.22E-65,Peptidoglycan-recognition protein LB,PF01510.22,N-acetylmuramoyl-L-alanine amidase,1.1E-15,PGRP,Znev_09909,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN212786_c6_g2,3.4E-50,3.8E-50,PGSB1_DROME,9.18E-39,Peptidoglycan-recognition protein SB1,PF01510.22,N-acetylmuramoyl-L-alanine amidase,1.4E-09,,,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN212813_c2_g3,7.6E-65,8.3E-65,PGRP1_CAMDR,2.33E-44,Peptidoglycan recognition protein 1,PF01510.22,N-acetylmuramoyl-L-alanine amidase,6.7E-11,,,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN265153_c0_g1,7.6E-48,9.4E-48,PGRP_BOMMO,2.94E-32,Peptidoglycan recognition protein,PF01510.22,N-acetylmuramoyl-L-alanine amidase,0.00000017,PGRP,Znev_01249,5prime_partial
+Pattern_Recongnition,PGRPs,TRINITY_DN265153_c0_g2,1.3E-47,1.4E-47,PGRP_BOMMO,1.14E-31,Peptidoglycan recognition protein,PF01510.22,N-acetylmuramoyl-L-alanine amidase,0.00000033,PGRP,Znev_01249,complete
+Pattern_Recongnition,PGRPs,TRINITY_DN49503_c0_g1,,,,,,,,,PGRP,Znev_09910,internal
+Toll_pathway,SPZs_Toll,TRINITY_DN168267_c0_g1,8.8E-29,1.1E-28,SPZ_DROME,9.46E-08,Protein spaetzle,PF16077.2,Spaetzle,1.9E-27,Spaetzle-like,Znev_11366,5prime_partial
+Toll_pathway,SPZs_Toll,TRINITY_DN171056_c0_g1,8.7E-25,2.3E-24,SPZ_DROME,2.48E-13,Protein spaetzle,PF16077.2,Spaetzle,6.4E-27,Spaetzle-like,Znev_10324,complete
+Toll_pathway,SPZs_Toll,TRINITY_DN192862_c1_g1,1.9E-20,1.9E-20,SPZ_DROME,1.75E-18,Protein spaetzle,PF16077.2,Spaetzle,5.2E-25,,,complete
+Toll_pathway,SPZs_Toll,TRINITY_DN194130_c4_g1,8.8E-11,1E-10,SPZ_DROME,0.000519,Protein spaetzle,PF16077.2,Spaetzle,6E-11,,,internal
+Toll_pathway,SPZs_Toll,TRINITY_DN196312_c4_g1,9.1E-28,1.6E-27,SPZ_DROME,2.01E-23,Protein spaetzle,PF16077.2,Spaetzle,6.1E-30,Spaetzle-like,Znev_10323,complete
+Toll_pathway,SPZs_Toll,TRINITY_DN205680_c20_g1,2.9E-33,2.9E-33,,,,PF16077.2,Spaetzle,7.3E-21,Spaetzle,Znev_00635,complete
+Toll_pathway,SPZs_Toll,TRINITY_DN207008_c0_g1,1.4E-25,1.4E-25,SPZ_DROME,2.48E-15,Protein spaetzle,PF16077.2,Spaetzle,5E-29,,,complete
+Toll_pathway,SPZs_Toll,TRINITY_DN27141_c0_g1,3E-23,4.6E-23,SPZ_DROME,2.47E-12,Protein spaetzle,PF16077.2,Spaetzle,1.4E-24,,,5prime_partial
+Toll_pathway,TLR_Toll,TRINITY_DN179468_c1_g1,8.2E-12,8.6E-12,TLR2_HORSE,2.33E-10,Toll-like receptor 2,0,0,0,,,internal
+Toll_pathway,TLR_Toll,TRINITY_DN179468_c2_g1,1.9E-28,2.2E-28,TLR2_MACFA,7.25E-22,Toll-like receptor 2,PF01582.17,TIR domain,2.6E-13,,,internal
+Toll_pathway,TLR_Toll,TRINITY_DN187166_c1_g1,8.6E-44,1E-43,TLR22_CHICK,5.38E-30,Toll-like receptor 2 type-2,PF08937.8,MTH538 TIR-like domain (DUF1863),0.00016,,,5prime_partial
+Toll_pathway,TLR_Toll,TRINITY_DN191714_c1_g1,4.8E-55,1.7E-54,TOLL_DROME,3.86E-59,Protein toll,PF13306.3,Leucine rich repeats (6 copies),0.00023,18wheeler,"Znev_10053,Znev_10044,Znev_10041,Znev_00888",complete
+Toll_pathway,TLR_Toll,TRINITY_DN197463_c1_g1,6.7E-49,2.8E-48,TOLL_DROME,5.02E-61,Protein toll,PF13306.3,Leucine rich repeats (6 copies),0.063,18wheeler,"Znev_10053,Znev_10044,Znev_10041,Znev_00888",complete
+Toll_pathway,TLR_Toll,TRINITY_DN199910_c0_g1,1.9E-50,3.2E-50,TLR13_MOUSE,1.8E-40,Toll-like receptor 13,PF13306.3,Leucine rich repeats (6 copies),0.35,Toll-like_receptor,Znev_01370,complete
+Toll_pathway,TLR_Toll,TRINITY_DN201305_c0_g1,3.4E-72,1.4E-71,TOLL_DROME,1.54E-75,Protein toll,PF13306.3,Leucine rich repeats (6 copies),0.0085,18wheeler,"Znev_10053,Znev_10044,Znev_10041,Znev_00888",5prime_partial
+Toll_pathway,TLR_Toll,TRINITY_DN206904_c1_g1,1.4E-16,1.7E-16,ILRL1_MOUSE,2.02E-11,Interleukin-1 receptor-like 1,PF01582.17,TIR domain,0.0000015,,,complete
+Toll_pathway,TLR_Toll,TRINITY_DN207591_c0_g1,5.2E-55,7.2E-55,TLR13_MOUSE,1.42E-41,Toll-like receptor 13,PF13516.3,Leucine Rich repeat,0.071,Toll-9,Znev_10923,complete
+Toll_pathway,TLR_Toll,TRINITY_DN210363_c1_g1,1.4E-49,4.3E-49,TOLL_DROME,0,Protein toll,PF13306.3,Leucine rich repeats (6 copies),0.00091,Toll,Znev_13969,3prime_partial
+Toll_pathway,TLR_Toll,TRINITY_DN210363_c1_g2,3.1E-14,3.8E-14,TOLL_DROME,5.36E-26,Protein toll,0,0,0,,,5prime_partial
+Toll_pathway,TLR_Toll,TRINITY_DN211918_c4_g1,6.3E-23,1.2E-22,IRPL2_MOUSE,6.75E-23,X-linked interleukin-1 receptor accessory protein-like 2,PF13676.3,TIR domain,0.00000011,,,complete
+Toll_pathway,TLR_Toll,TRINITY_DN212988_c1_g1,5.2E-44,1.4E-43,TLR13_MOUSE,5.3E-39,Toll-like receptor 13,PF13306.3,Leucine rich repeats (6 copies),0.00051,,,complete
+Toll_pathway,TLR_Toll,TRINITY_DN213010_c2_g1,1E-47,1.3E-47,TLR22_CHICK,1.48E-42,Toll-like receptor 2 type-2,PF13306.3,Leucine rich repeats (6 copies),0.077,,,complete
+Toll_pathway,TLR_Toll,TRINITY_DN216320_c0_g1,1E-60,1.3E-60,TOLL_DROME,1.74E-39,Protein toll,PF13676.3,TIR domain,1.9E-12,,,5prime_partial
+Toll_pathway,Myd88_Toll,TRINITY_DN187224_c1_g1,8.9E-110,1.1E-109,MYD88_SALSA,2.13E-33,Myeloid differentiation primary response protein MyD88,PF01582.17,TIR domain,0.00000027,,,complete
+Toll_pathway,Myd88_Toll,TRINITY_DN187224_c1_g2,8.9E-110,1.1E-109,MYD88_SALSA,2.13E-33,Myeloid differentiation primary response protein MyD88,PF01582.17,TIR domain,0.00000027,,,complete
+Toll_pathway,Traf_Toll,TRINITY_DN191477_c0_g1,6.4E-46,1.7E-45,TRAF2_HUMAN,9.4E-23,TNF receptor-associated factor 2,PF02176.15,TRAF-type zinc finger,0.00022,TRAF,Znev_11985,5prime_partial
+Toll_pathway,Traf_Toll,TRINITY_DN204719_c8_g1,4.2E-13,5.1E-13,TRAF1_MOUSE,2.57E-10,TNF receptor-associated factor 1,0,0,0,,,complete
+Toll_pathway,Traf_Toll,TRINITY_DN209739_c7_g1,2.1E-39,2.2E-39,TRAF4_MOUSE,6.68E-147,TNF receptor-associated factor 4,PF13913.3,zinc-finger of a C2HC-type,0.00061,TRAF,Znev_17913,internal
+Toll_pathway,Traf_Toll,TRINITY_DN209961_c8_g1,8.1E-13,1.5E-12,TRAF6_BOVIN,2.83E-30,TNF receptor-associated factor 6,PF04564.12,U-box domain,0.000013,TRAF,Znev_15253,complete
+Toll_pathway,Tube_Toll,TRINITY_DN202454_c1_g1,8E-143,9.2E-143,IRAK4_HUMAN,4.78E-69,Interleukin-1 receptor-associated kinase 4,PF07714.14,Protein tyrosine kinase,1.4E-44,,,complete
+Toll_pathway,Dif_Toll,TRINITY_DN207842_c0_g1,1.7E-187,2.4E-187,DORS_DROME,1.76E-161,Embryonic polarity protein dorsal,PF16179.2,Rel homology dimerisation domain,1.8E-39,DIF/DORSAL,Znev_07478,complete
+Toll_pathway,Cactus_Toll,TRINITY_DN212656_c6_g1,1.9E-86,2.3E-86,CACT_DROME,7.55E-72,NF-kappa-B inhibitor cactus,PF00023.27,Ankyrin repeat,0.00033,Cactus,Znev_07020,complete
+Toll_pathway,JNK_ip_Toll,TRINITY_DN211996_c0_g1,8.5E-230,9.8E-230,JIP3_HUMAN,0,C-Jun-amino-terminal kinase-interacting protein 3,PF16471.2,JNK-interacting protein leucine zipper II,3.5E-31,JNK-interacting_SapK,Znev_15407,complete
+Toll_pathway,Pelle_Toll,TRINITY_DN208835_c1_g2,1.3E-192,1.6E-192,KPEL_DROME,2.91E-69,Serine/threonine-protein kinase pelle,PF00531.19,Death domain,0.000000012,Pelle,Znev_09453,complete
+Toll_pathway,Pellino-Toll,TRINITY_DN199413_c3_g1,1.1E-180,1.2E-180,PELI_DROME,0,Protein pellino,PF04710.11,Pellino,1.8E-213,,,5prime_partial
+Toll_pathway,RELs_Toll,TRINITY_DN212806_c6_g1,3.5E-171,3.9E-169,NFKB1_DROME,9.84E-99,Nuclear factor NF-kappa-B p110 subunit,PF00023.27,Ankyrin repeat,0.00015,Relish_(NF-Kappa-B),Znev_11193,complete
+Toll_pathway,TLR_Toll,TRINITY_DN16743_c0_g1,,,,,,,,,Toll_or_LRR,Znev_05966,internal
+Toll_pathway,,TRINITY_DN188277_c3_g1,,,,,,,,,NF-kappa-B_inhibitor-like,Znev_03760,internal
+Toll_pathway,TLR_Toll,TRINITY_DN194218_c0_g1,,,,,,,,,Toll_or_LRR,Znev_05966,internal
+Toll_pathway,TLR_Toll,TRINITY_DN194218_c2_g1,,,,,,,,,Toll_or_LRR,Znev_05966,internal
+Toll_pathway,TLR_Toll,TRINITY_DN227733_c0_g1,,,,,,,,,Toll_or_LRR,Znev_05966,internal
+Toll_pathway,,TRINITY_DN205100_c6_g1,1E-52,6.2E-24,AKD1A_HUMAN,4.62E-84,Ankyrin repeat and death domain-containing protein 1A,PF00023.27,Ankyrin repeat,0.00028,Ankyrin_repeat_and_death_domain-_containing_protein,Znev_09041,complete
+Toll_pathway,,TRINITY_DN210993_c2_g1,2.1E-38,4.3E-38,BCL3_HUMAN,1.53E-31,B-cell lymphoma 3 protein,PF13606.3,Ankyrin repeat,0.00048,NF-kappa-B_inhibitor_alpha,Znev_09660,complete
+Toll_pathway,,TRINITY_DN205352_c11_g1,,,,,,,,,ECSIT_(signal_intermediate_in_Toll_pathway),Znev_07957,complete
+Toll_pathway,,TRINITY_DN209851_c2_g1,,,,,,,,,Tollip_(Toll-interacting_protein),Znev_07741,complete
+IMD_pathway,Fadd_IMD,TRINITY_DN207385_c5_g3,1.2E-36,2.4E-36,FADD_DROME,3.74E-15,Fas-associated death domain protein,PF00531.19,Death domain,2.1E-12,Fas_(TNFRSF6)-associated_via_death_domain,Znev_06474,complete
+IMD_pathway,Imd_IMD,TRINITY_DN183978_c0_g1,1.4E-22,9.1E-20,RIPK1_MOUSE,0.00000196,Receptor-interacting serine/threonine-protein kinase 1,PF00531.19,Death domain,0.00017,,,5prime_partial
+IMD_pathway,Imd_IMD,TRINITY_DN201890_c0_g1,0.000000001,3.7E-09,,,,PF00531.19,Death domain,0.0000053,,,complete
+IMD_pathway,Imd_IMD,TRINITY_DN202436_c1_g1,2.1E-29,2.3E-29,RIPK1_MOUSE,4.98E-10,Receptor-interacting serine/threonine-protein kinase 1,PF00531.19,Death domain,2.9E-10,IMD_(immune_deficiency),Znev_02405,complete
+IMD_pathway,Ird5_IMD,TRINITY_DN210495_c4_g1,6.6E-185,7.7E-185,IKKA_XENLA,3.57E-125,Inhibitor of nuclear factor kappa-B kinase subunit alpha,PF00069.22,Protein kinase domain,2.7E-49,IKB_(I-Kappa-B),Znev_09963,complete
+IMD_pathway,Key_IMD,TRINITY_DN204438_c0_g1,3.1E-27,2.1E-26,OPTN_DANRE,2.15E-18,Optineurin,PF16516.2,"Leucine zipper of domain CC2 of NEMO, NF-kappa-B essential modulator",3.7E-24,Optineurin_(NF-K-B_modulator),Znev_04648,complete
+IMD_pathway,Pirk_IMD,TRINITY_DN210565_c0_g1,3.2E-27,4.5E-27,,,,,,,,,5prime_partial
+IMD_pathway,TAB2_IMD,TRINITY_DN207416_c6_g2,3.6E-24,3.8E-24,TAB2_RAT,0.0000046,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,0,0,0,,,3prime_partial
+IMD_pathway,TAB2_IMD,TRINITY_DN207416_c8_g1,4.1E-32,5.4E-32,TAB2_MOUSE,2.05E-19,TGF-beta-activated kinase 1 and MAP3K7-binding protein 2,PF00641.15,Zn-finger in Ran binding protein and others,0.000026,,,5prime_partial
+IMD_pathway,TAK1_IMD,TRINITY_DN204112_c0_g2,5.8E-132,9.2E-132,M3K7_BOVIN,8.18E-180,Mitogen-activated protein kinase kinase kinase 7,PF07714.14,Protein tyrosine kinase,1.4E-61,MAPKKK_(TAK1),Znev_09904,complete
+IMD_pathway,Caspar_IMD,TRINITY_DN204197_c0_g1,2.7E-41,7E-39,FAF2_XENTR,7.48E-151,FAS-associated factor 2,PF00789.17,UBX domain,1.3E-11,,,complete
+IMD_pathway,Caspar_IMD,TRINITY_DN204960_c1_g1,1.8E-256,2E-256,FAF1_HUMAN,0,FAS-associated factor 1,PF00789.17,UBX domain,1.1E-14,FAS-assocaited_factor_(TNFRSF6),Znev_08114,complete
+IMD_pathway,,TRINITY_DN208199_c0_g1,,,,,,,,,NIK_+_IKBKB-BP_(TRAF-like),Znev_04156,complete
+IMD_pathway,,TRINITY_DN209359_c2_g3,,,,,,,,,MYLIP_(defense_repressor),Znev_02112,complete
+IMD_pathway,,TRINITY_DN212392_c8_g1,,,,,,,,,NF-K-B-related_C-Jun/JNK,Znev_00650,complete
+IMD_pathway,,TRINITY_DN205960_c1_g1,,,,,,,,,NF-kappa-B-repressing_factor,Znev_05897,complete
+IMD_pathway,,TRINITY_DN203896_c2_g1,,,,,,,,,Kappa-B-ras_(NF-kappa-B_inhibitor_alpha-interacting),Znev_06522,complete
+IMD_pathway,,TRINITY_DN204545_c7_g1,,,,,,,,,MAPKKK,Znev_12168,complete
+JAK-STAT_pathway,Domeless_JAK-STAT,TRINITY_DN210555_c5_g1,2.9E-270,3.5E-270,DOME_DROME,8.44E-53,Cytokine receptor,PF00041.18,Fibronectin type III domain,1.2E-11,Cytokine_receptor,Znev_09344,complete
+JAK-STAT_pathway,Hopscoth_JAK-STAT,TRINITY_DN211448_c5_g3,0,0,JAK_DROME,4.82E-60,Tyrosine-protein kinase hopscotch,PF00017.21,SH2 domain,0.000013,JAK/hopscotch,Znev_10639,complete
+JAK-STAT_pathway,Stam_JAK-STAT,TRINITY_DN205021_c0_g1,1.7E-199,1.9E-199,STAM1_HUMAN,3.76E-148,Signal transducing adapter molecule 1,PF02809.17,Ubiquitin interaction motif,0.00073,JAK_pathway_STAM,Znev_00434,complete
+JAK-STAT_pathway,STAT_JAK-STAT,TRINITY_DN210050_c5_g1,2E-234,2.4E-234,STA5A_HUMAN,0,Signal transducer and activator of transcription 5A,PF01017.17,"STAT protein, all-alpha domain",1.1E-57,STAT,Znev_16675,complete
+Effector,Transferrin,TRINITY_DN206535_c9_g1,6.3E-60,1.4E-45,TRFM_RABIT,8.46E-125,Melanotransferrin,PF00405.14,Transferrin,2.1E-77,,,5prime_partial
+Effector,Transferrin,TRINITY_DN207471_c0_g1,4.1E-41,2.3E-32,TRF_BLADI,1.69E-64,Transferrin,PF00405.14,Transferrin,1E-34,,,complete
+Effector,Transferrin,TRINITY_DN210772_c5_g4,5.2E-48,9.7E-48,TRF_BLADI,0,Transferrin,PF00405.14,Transferrin,2.6E-20,,,5prime_partial
+Effector,CATs,TRINITY_DN200371_c0_g1,6.2E-108,7.3E-108,CATA_DROME,2.06E-93,Catalase,PF06628.9,Catalase-related immune-responsive,5E-19,,,complete
+Effector,CATs,TRINITY_DN200371_c2_g1,1.2E-40,1.4E-40,CATA_DANRE,7.04E-40,Catalase,PF00199.16,Catalase,7.4E-38,,,internal
+Effector,CATs,TRINITY_DN200371_c3_g1,6.1E-38,6.7E-38,CATA_PIG,1.32E-29,Catalase,PF00199.16,Catalase,9.6E-28,,,internal
+Effector,CATs,TRINITY_DN206745_c0_g1,2.3E-222,2.9E-222,CATA_RUGRU,0,Catalase,PF06628.9,Catalase-related immune-responsive,2.2E-12,,,5prime_partial
+Effector,CATs,TRINITY_DN209411_c5_g4,1.4E-46,1.4E-46,CATA_BOVIN,1E-51,Catalase,PF00199.16,Catalase,1.5E-42,,,5prime_partial
+Effector,CATs,TRINITY_DN209411_c5_g5,1.1E-269,1.4E-269,CATA_PIG,0,Catalase,PF00199.16,Catalase,1.4E-191,,,5prime_partial
+Effector,CATs,TRINITY_DN210101_c1_g1,2.5E-234,3.1E-234,CATA_RUGRU,0,Catalase,PF06628.9,Catalase-related immune-responsive,2.5E-12,,,complete
+Effector,CATs,TRINITY_DN212150_c1_g1,2.8E-279,3.7E-279,CATA_DROME,0,Catalase,PF06628.9,Catalase-related immune-responsive,3.1E-21,,,complete
+Effector,CATs,TRINITY_DN287004_c0_g1,1.1E-38,1.2E-38,CATA_PONAB,8.87E-35,Catalase,PF00199.16,Catalase,5.5E-33,,,internal
+Effector,CATs,TRINITY_DN89736_c0_g1,6.4E-37,7.2E-37,CATA_ASCSU,1.46E-28,Catalase,PF06628.9,Catalase-related immune-responsive,4.4E-18,,,5prime_partial
+Recognition,FREPs,TRINITY_DN166725_c0_g2,4.3E-72,5.6E-72,ANGL1_HUMAN,3.7E-50,Angiopoietin-related protein 1,PF00147.15,"Fibrinogen beta and gamma chains, C-terminal globular domain",1.1E-56,,,5prime_partial
+Recognition,FREPs,TRINITY_DN203196_c2_g1,1.8E-58,6.4E-58,TL5A_TACTR,2.36E-48,Techylectin-5A,PF00147.15,"Fibrinogen beta and gamma chains, C-terminal globular domain",1E-57,,,complete
+Recognition,FREPs,TRINITY_DN206797_c0_g1,1.5E-12,1.6E-12,ANGP2_PIG,5.51E-10,Angiopoietin-2,PF00147.15,"Fibrinogen beta and gamma chains, C-terminal globular domain",1.2E-09,,,5prime_partial
+Recognition,FREPs,TRINITY_DN206797_c12_g1,2.9E-35,3.2E-35,TL5B_TACTR,4.01E-25,Techylectin-5B,PF00147.15,"Fibrinogen beta and gamma chains, C-terminal globular domain",3.6E-27,,,internal
+Recognition,FREPs,TRINITY_DN29572_c1_g1,6.8E-31,1.9E-30,SCA_DROME,3.06E-69,Protein scabrous,PF00147.15,"Fibrinogen beta and gamma chains, C-terminal globular domain",7.5E-31,,,internal
+Recognition,GALEs,TRINITY_DN203081_c1_g1,1.5E-18,2.4E-18,LEG4_PIG,3.13E-34,Galectin-4,PF00337.19,Galactoside-binding lectin,1.9E-42,Galectin,Znev_07311,complete
+Recognition,GALEs,TRINITY_DN203975_c0_g1,8.4E-09,0.00082,LEG1_HAECO,2.58E-27,32 kDa beta-galactoside-binding lectin,PF00337.19,Galactoside-binding lectin,5.1E-26,,,5prime_partial
+Recognition,GALEs,TRINITY_DN204225_c6_g1,2.6E-29,3.9E-13,LEG1_HAECO,3.41E-41,32 kDa beta-galactoside-binding lectin,PF00337.19,Galactoside-binding lectin,1.6E-27,,,5prime_partial
+Recognition,GALEs,TRINITY_DN205412_c1_g1,3.5E-28,3.7E-17,LEG4_MOUSE,4.21E-35,Galectin-4,PF00337.19,Galactoside-binding lectin,2.7E-30,Galectin,Znev_04392,complete
+Recognition,GALEs,TRINITY_DN207109_c1_g1,5.3E-20,8.8E-11,LEG1_HAECO,6.61E-35,32 kDa beta-galactoside-binding lectin,PF00337.19,Galactoside-binding lectin,3.8E-27,,,complete
+Recognition,MLs,TRINITY_DN169438_c1_g1,6.7E-12,7.5E-12,NPC2_DROME,1.66E-22,Protein NPC2 homolog,PF02221.12,ML domain,6.1E-19,,,complete
+Recognition,MLs,TRINITY_DN196538_c0_g1,4.5E-18,5.3E-18,NPC2_BOVIN,1.31E-17,Epididymal secretory protein E1,PF02221.12,ML domain,2.9E-23,MPA2_allergen,Znev_11387,complete
+Recognition,MLs,TRINITY_DN202244_c0_g2,1.7E-15,2.2E-15,NPC2_PANTR,7.34E-15,Epididymal secretory protein E1,PF02221.12,ML domain,1.4E-23,,,5prime_partial
+Recognition,MLs,TRINITY_DN206261_c0_g1,1.5E-19,1.8E-19,NPC2_DROME,3.19E-14,Protein NPC2 homolog,PF02221.12,ML domain,4.8E-23,MDL2,Znev_11389,complete
+Recognition,MLs,TRINITY_DN208537_c10_g1,4.7E-15,5.8E-15,ML1P_MANSE,5.65E-20,MD-2-related lipid-recognition protein,PF02221.12,ML domain,4.2E-16,MDL1,Znev_17997,complete
+Recognition,MLs,TRINITY_DN208822_c2_g3,2.6E-15,2.9E-15,NPC2_DROME,6.97E-42,Protein NPC2 homolog,PF02221.12,ML domain,2E-27,NPC2-like,Znev_00122,complete
+Recognition,MLs,TRINITY_DN263538_c0_g1,3.5E-15,3.6E-15,NPC2_BOVIN,1.23E-14,Epididymal secretory protein E1,PF02221.12,ML domain,2.7E-20,MPA2_allergen,Znev_11388,complete
+Recognition,TEPs,TRINITY_DN203691_c2_g1,1.1E-244,1.4E-244,CD109_HUMAN,1.45E-131,CD109 antigen,PF00432.18,Prenyltransferase and squalene oxidase repeat,0.84,TEP3,"Znev_13964,Znev_05513",complete
+Recognition,TEPs,TRINITY_DN205654_c2_g1,1.9E-266,2.5E-266,CD109_HUMAN,0,CD109 antigen,PF00207.19,Alpha-2-macroglobulin family,1.3E-27,TEP1,Znev_02879,complete
+Recognition,TEPs,TRINITY_DN206930_c1_g2,2.5E-18,2.8E-18,CO3_EPTBU,0.000000355,Complement C3,PF07677.11,A-macroglobulin receptor,2.2E-09,,,5prime_partial
+Recognition,TEPs,TRINITY_DN206930_c2_g1,1.1E-99,1.4E-99,CD109_HUMAN,3.89E-56,CD109 antigen,PF07703.11,Alpha-2-macroglobulin family N-terminal region,0.00000011,TEP3,"Znev_13964,Znev_05513",5prime_partial
+Recognition,TEPs,TRINITY_DN212116_c6_g1,4.5E-236,5.7E-236,A2ML1_HUMAN,0,Alpha-2-macroglobulin-like protein 1,PF10569.6,Alpha-macro-globulin thiol-ester bond-forming region,1.4E-14,TEP2,Znev_18586,complete
+Recognition,CTLs,TRINITY_DN137749_c0_g1,0.0000025,0.0000031,LPSBP_PERAM,2.38E-40,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.3E-15,,,5prime_partial
+Recognition,CTLs,TRINITY_DN143323_c0_g1,0.00000066,0.00000078,LPSBP_PERAM,2.03E-34,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.4E-12,,,5prime_partial
+Recognition,CTLs,TRINITY_DN167970_c3_g1,0.0000017,0.0000025,LPSBP_PERAM,1.95E-24,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2E-12,,,5prime_partial
+Recognition,CTLs,TRINITY_DN183662_c0_g1,6.2E-10,0.000000001,LPSBP_PERAM,8.5E-48,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.4E-17,,,complete
+Recognition,CTLs,TRINITY_DN186074_c1_g1,0.0000042,0.0000057,LPSBP_PERAM,1.46E-34,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,5.4E-11,,,5prime_partial
+Recognition,CTLs,TRINITY_DN190586_c0_g1,1.7E-09,1.9E-09,LPSBP_PERAM,1.32E-28,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,5.8E-14,,,complete
+Recognition,CTLs,TRINITY_DN191904_c1_g1,0.000000015,0.000000019,LPSBP_PERAM,1.78E-27,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,6.5E-16,,,5prime_partial
+Recognition,CTLs,TRINITY_DN192635_c0_g1,0.000000048,0.000000052,LPSBP_PERAM,3.53E-48,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.2E-09,,,complete
+Recognition,CTLs,TRINITY_DN193512_c0_g1,0.000000082,0.00000011,LPSBP_PERAM,6.39E-37,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.2E-10,,,5prime_partial
+Recognition,CTLs,TRINITY_DN199055_c0_g1,2.6E-10,2.7E-10,LPSBP_PERAM,5.8E-53,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,5.9E-12,,,complete
+Recognition,CTLs,TRINITY_DN199675_c1_g1,1.3E-30,0.000049,MRC2_HUMAN,4.17E-09,C-type mannose receptor 2,PF00059.18,Lectin C-type domain,0.000011,,,3prime_partial
+Recognition,CTLs,TRINITY_DN200685_c0_g1,0.0000002,0.00000029,LPSBP_PERAM,2.94E-23,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.1E-13,,,complete
+Recognition,CTLs,TRINITY_DN200789_c0_g1,0.00000057,0.00000085,LPSBP_PERAM,3.03E-46,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3E-13,,,5prime_partial
+Recognition,CTLs,TRINITY_DN200869_c3_g1,8.9E-10,1.4E-09,LYAM1_RAT,0.000286,L-selectin,PF00059.18,Lectin C-type domain,0.0000047,CTL,Znev_05559,5prime_partial
+Recognition,CTLs,TRINITY_DN201319_c0_g1,0.0000018,0.000002,SLA1_DEIAC,0.00000957,Snaclec agglucetin subunit alpha-1,PF00059.18,Lectin C-type domain,7.2E-13,CTL,Znev_00043,internal
+Recognition,CTLs,TRINITY_DN201843_c0_g1,0.00000003,0.000000044,LPSBP_PERAM,1.16E-34,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.3E-13,,,complete
+Recognition,CTLs,TRINITY_DN202299_c0_g2,0.000000067,0.000000097,LPSBP_PERAM,1.3E-30,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.2E-11,,,complete
+Recognition,CTLs,TRINITY_DN203168_c1_g1,0.000000043,0.000000049,LPSBP_PERAM,1.06E-50,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.4E-10,,,5prime_partial
+Recognition,CTLs,TRINITY_DN203647_c0_g1,0.00000011,0.00000014,LPSBP_PERAM,7.26E-45,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,4.1E-16,,,5prime_partial
+Recognition,CTLs,TRINITY_DN203978_c0_g1,0.000000097,0.00000017,LPSBP_PERAM,4.4E-39,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,4.7E-11,,,complete
+Recognition,CTLs,TRINITY_DN204025_c0_g1,2.1E-12,2.9E-12,,,,PF00059.18,Lectin C-type domain,0.00029,CTL,Znev_00446,complete
+Recognition,CTLs,TRINITY_DN204072_c2_g4,0.00000029,0.00000034,LPSBP_PERAM,1.36E-33,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.4E-09,,,5prime_partial
+Recognition,CTLs,TRINITY_DN204436_c0_g1,6.7E-09,9.9E-09,LPSBP_PERAM,1.71E-40,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,4E-11,,,complete
+Recognition,CTLs,TRINITY_DN204569_c0_g1,0.000002,0.0000025,LPSBP_PERAM,9.09E-15,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.9E-10,,,5prime_partial
+Recognition,CTLs,TRINITY_DN204627_c1_g1,0.00000007,0.000000088,LPSBP_PERAM,1.37E-51,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.6E-14,,,5prime_partial
+Recognition,CTLs,TRINITY_DN204859_c1_g1,0.0000085,0.000011,LPSBP_PERAM,6.41E-33,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,0.00026,,,internal
+Recognition,CTLs,TRINITY_DN204859_c1_g2,2E-11,3.6E-11,LPSBP_PERAM,2.16E-52,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.9E-10,,,5prime_partial
+Recognition,CTLs,TRINITY_DN204995_c8_g1,4.5E-10,0.000000001,,,,PF00059.18,Lectin C-type domain,0.000082,CTL,Znev_05556,5prime_partial
+Recognition,CTLs,TRINITY_DN205179_c0_g1,0.0000027,0.0000039,LPSBP_PERAM,7.32E-48,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.2E-11,,,5prime_partial
+Recognition,CTLs,TRINITY_DN205615_c0_g2,1.6E-14,0.00000015,LPSBP_PERAM,6.15E-20,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,0.0000066,,,complete
+Recognition,CTLs,TRINITY_DN205710_c2_g3,0.0000072,0.0000088,LPSBP_PERAM,1.98E-20,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1E-11,,,complete
+Recognition,CTLs,TRINITY_DN206020_c8_g1,0.0000089,0.0000092,LPSBP_PERAM,1.66E-60,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.9E-14,,,complete
+Recognition,CTLs,TRINITY_DN206615_c15_g1,6.9E-10,7.1E-10,LPSBP_PERAM,2.94E-171,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,5.6E-21,,,complete
+Recognition,CTLs,TRINITY_DN207716_c2_g2,4.6E-09,5.6E-09,LPSBP_PERAM,5.83E-64,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3E-14,,,complete
+Recognition,CTLs,TRINITY_DN207865_c5_g1,0.0000017,0.0000024,LECG_THANI,1.12E-10,Galactose-specific lectin nattectin,PF00059.18,Lectin C-type domain,0.000000016,,,complete
+Recognition,CTLs,TRINITY_DN207869_c4_g1,0.00000043,0.000001,LPSBP_PERAM,3.23E-39,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.9E-12,,,complete
+Recognition,CTLs,TRINITY_DN207877_c7_g1,5.1E-11,7.5E-11,LPSBP_PERAM,1.36E-55,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,5.4E-15,,,complete
+Recognition,CTLs,TRINITY_DN208497_c3_g2,2E-10,2.2E-10,LPSBP_PERAM,2.26E-73,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.6E-17,,,complete
+Recognition,CTLs,TRINITY_DN208586_c1_g1,3.2E-11,3.3E-11,LPSBP_PERAM,1.07E-57,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,2.6E-14,,,complete
+Recognition,CTLs,TRINITY_DN208704_c1_g1,0.000000014,0.000000016,LPSBP_PERAM,1.06E-52,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1E-14,,,complete
+Recognition,CTLs,TRINITY_DN209100_c1_g1,1.2E-10,1.9E-10,LPSBP_PERAM,2.7E-78,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,4.2E-16,,,complete
+Recognition,CTLs,TRINITY_DN209415_c7_g1,0.00000047,0.0000011,LPSBP_PERAM,4.47E-37,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.9E-15,,,complete
+Recognition,CTLs,TRINITY_DN210009_c2_g1,2E-12,2.3E-12,LPSBP_PERAM,9.06E-51,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.1E-16,,,complete
+Recognition,CTLs,TRINITY_DN210649_c10_g1,2E-23,0.000016,SVEP1_HUMAN,2.73E-13,"Sushi, von Willebrand factor type A, EGF and pentraxin domain-containing protein 1",PF00084.17,Sushi repeat (SCR repeat),0.0013,,,5prime_partial
+Recognition,CTLs,TRINITY_DN210649_c2_g1,0.0000048,0.0000048,COL12_RAT,0.000000156,Collectin-12,PF00059.18,Lectin C-type domain,1.6E-14,,,internal
+Recognition,CTLs,TRINITY_DN210649_c5_g1,1.3E-09,0.00048,CLC4E_HUMAN,0.00000973,C-type lectin domain family 4 member E,PF00059.18,Lectin C-type domain,0.000053,,,3prime_partial
+Recognition,CTLs,TRINITY_DN210940_c11_g1,0.00000015,0.00000019,LPSBP_PERAM,4.66E-22,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.1E-13,,,complete
+Recognition,CTLs,TRINITY_DN211010_c3_g1,0.00000063,0.00000086,LPSBP_PERAM,2.02E-25,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.4E-11,,,5prime_partial
+Recognition,CTLs,TRINITY_DN211087_c0_g4,5.4E-15,0.000068,,,,PF00059.18,Lectin C-type domain,2.2E-10,,,internal
+Recognition,CTLs,TRINITY_DN212295_c3_g1,2.4E-10,3.2E-10,LPSBP_PERAM,6.24E-41,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.1E-15,,,complete
+Recognition,CTLs,TRINITY_DN212540_c0_g1,0.00000037,0.00000062,LPSBP_PERAM,1.13E-41,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1.8E-11,,,5prime_partial
+Recognition,CTLs,TRINITY_DN212999_c2_g3,3.3E-10,4.6E-10,LPSBP_PERAM,6.21E-51,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.2E-14,,,complete
+Recognition,CTLs,TRINITY_DN213121_c0_g3,4.6E-10,0.00051,LPSBP_PERAM,1.91E-18,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,0.00000055,,,5prime_partial
+Recognition,CTLs,TRINITY_DN213148_c7_g1,0.000000023,0.00000003,LPSBP_PERAM,8.54E-51,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,1E-12,,,5prime_partial
+Recognition,CTLs,TRINITY_DN213404_c0_g1,6.9E-14,8.1E-14,LECM_OXYSU,7.77E-15,C-type lectin mannose-binding isoform,PF00059.18,Lectin C-type domain,3.1E-16,CTL_(Macrophage_mannose_receptor_1),Znev_14909,complete
+Recognition,CTLs,TRINITY_DN214096_c6_g1,0.000000039,0.000000051,LPSBP_PERAM,3.87E-24,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,6.2E-13,,,5prime_partial
+Recognition,CTLs,TRINITY_DN277272_c0_g1,0.000000005,5.6E-09,LPSBP_PERAM,1.3E-47,Hemolymph lipopolysaccharide-binding protein,PF00059.18,Lectin C-type domain,3.7E-13,,,5prime_partial
+Recognition,CTL,TRINITY_DN211180_c0_g2,,,,,,,,,"CTL_(sushi,_von_Willebrand_factor_type_A,_EGF_and_pentraxin_domain-_containing_protein)",Znev_08675,5prime_partial
+Recognition,CTL,TRINITY_DN203411_c8_g1,,,,,,,,,"CTL_(sushi,_von_Willebrand_factor_type_A,_EGF_and_pentraxin_domain-_containing_protein)",Znev_03178,5prime_partial
+Recognition,CTL,TRINITY_DN171365_c1_g1,,,,,,,,,CTL,Znev_16861,3prime_partial
+Effector,destabilase,TRINITY_DN187110_c0_g1,8.6E-43,1.1E-42,LYS_MERLU,0.000000399,Lysozyme ,PF05497.9,Destabilase,4E-36,Lysozyme_I-type,Znev_11158,5prime_partial
+Effector,destabilase,TRINITY_DN199333_c0_g2,2.9E-51,3.4E-51,LYS_MERLU,8.22E-10,Lysozyme,PF05497.9,Destabilase,9.3E-40,,,5prime_partial
+Effector,destabilase,TRINITY_DN203850_c0_g1,1.6E-45,1.9E-45,LYS_CRAGI,9.69E-11,Lysozyme,PF05497.9,Destabilase,4E-35,Lysozyme_I-type,Znev_07418,5prime_partial
+Effector,destabilase,TRINITY_DN205389_c7_g4,1.9E-41,2.3E-41,LYS_MERLU,1.11E-08,Lysozyme,PF05497.9,Destabilase,2E-34,Lysozyme_I-type,Znev_01125,complete
+Effector,destabilase,TRINITY_DN210346_c2_g2,6.2E-30,8.2E-30,LYS_OSTED,1.35E-13,Lysozyme,PF05497.9,Destabilase,1.4E-28,,,complete
+Effector,destabilase,TRINITY_DN210429_c5_g1,3E-42,3.7E-42,LYS_CRAGI,1.3E-12,Lysozyme,PF05497.9,Destabilase,1.3E-33,Lysozyme_I-type,Znev_07419,5prime_partial
+Effector,LYSs,TRINITY_DN205079_c0_g1,8E-44,9.7E-44,LYSP_DROME,3.87E-28,Lysozyme P,PF00062.17,C-type lysozyme/alpha-lactalbumin family,9.4E-31,Lysozyme_C-type,Znev_17477,5prime_partial
+Effector,LYSs,TRINITY_DN207725_c2_g1,2E-39,2.4E-39,LYS_HYPCU,2.26E-50,Lysozyme,PF00062.17,C-type lysozyme/alpha-lactalbumin family,2.3E-32,,,5prime_partial
+Effector,LYSs,TRINITY_DN208075_c4_g1,1.2E-33,1.4E-33,LYS_BOMMO,3.24E-40,Lysozyme,PF00062.17,C-type lysozyme/alpha-lactalbumin family,4.7E-29,Lysozyme_C-type,Znev_03738,5prime_partial
+Effector,LYSs,TRINITY_DN209720_c5_g1,2.9E-41,3.1E-41,LYSC1_ANOGA,1.39E-41,Lysozyme c-1,PF06737.11,Transglycosylase-like domain,0.0002,,,complete
+Effector,LYSs,TRINITY_DN210486_c4_g1,1.4E-42,1.6E-42,LYSC1_ANOGA,1.19E-43,Lysozyme c-1,PF00062.17,C-type lysozyme/alpha-lactalbumin family,1.1E-34,,,complete
+Effector,LYSs,TRINITY_DN211434_c0_g1,5.7E-25,6.6E-25,LYSX_DROME,5.11E-22,Lysozyme X,PF00062.17,C-type lysozyme/alpha-lactalbumin family,5.4E-20,,,complete
+Autophagy,ATG12,TRINITY_DN200927_c0_g1,7.1E-53,7.1E-53,APG12_DROME,7.68E-46,Autophagy protein 12-like,PF04110.10,Ubiquitin-like autophagy protein Apg12,7.9E-39,ATG12,Znev_07412,complete
+Autophagy,ATG13,TRINITY_DN210395_c7_g1,1.9E-151,2.3E-151,ATG13_DROME,1.98E-86,Autophagy-related protein 13 homolog,PF10033.6,Autophagy-related protein 13,0.000000001,,,complete
+Autophagy,ATG14,TRINITY_DN206239_c0_g1,3.3E-78,4.7E-78,UVRAG_MOUSE,1.05E-83,UV radiation resistance associated protein,PF10186.6,Vacuolar sorting 38 and autophagy-related subunit 14,6.9E-15,,,complete
+Autophagy,ATG14,TRINITY_DN207592_c4_g3,3.9E-14,1.6E-13,BAKOR_HUMAN,1.75E-88,Beclin 1-associated autophagy-related key regulator,PF10186.6,Vacuolar sorting 38 and autophagy-related subunit 14,6E-57,,,5prime_partial
+Autophagy,ATG16,TRINITY_DN269207_c0_g1,1.7E-36,1.9E-36,A16L1_MOUSE,2.94E-25,Autophagy-related protein 16-1,PF00400.29,"WD domain, G-beta repeat",0.0078,ATG16L1,Znev_10012,internal
+Autophagy,ATG18B,TRINITY_DN204622_c2_g1,4.8E-40,6.6E-40,WIPI4_DANRE,2.87E-167,WD repeat domain phosphoinositide-interacting protein 4,0,0,0,Wipi4,Znev_10905,complete
+Autophagy,ATG18B,TRINITY_DN209538_c7_g1,1.7E-219,2.1E-219,WIPI2_XENLA,0,WD repeat domain phosphoinositide-interacting protein 2,0,0,0,Wipi1_(WD_repeat_domain_phosphoinositide-_interacting_protein_1),Znev_09191,complete
+Autophagy,ATG18B,TRINITY_DN209743_c1_g1,4.9E-48,6.4E-48,WIPI3_XENLA,0,WD repeat domain phosphoinositide-interacting protein 3,PF00400.29,"WD domain, G-beta repeat",0.042,Wipi3,Znev_13104,complete
+Autophagy,ATG2,TRINITY_DN211938_c7_g1,0,0,ATG2B_MOUSE,0,Autophagy-related protein 2 homolog B,PF12624.4,N-terminal region of Chorein or VPS13,3.1E-20,ATG2_(Autophagy-related_protein_2),Znev_14004,complete
+Autophagy,ATG3,TRINITY_DN203305_c6_g1,1.8E-12,2.3E-12,ATG3_BOVIN,1.37E-159,Ubiquitin-like-conjugating enzyme ATG3,PF03986.10,"Autophagocytosis associated protein (Atg3), N-terminal domain",2.1E-53,ATG3,Znev_06264,complete
+Autophagy,ATG3,TRINITY_DN206859_c0_g1,4.9E-43,6E-43,ATG10_HUMAN,8.3E-33,Ubiquitin-like-conjugating enzyme ATG10,PF03987.12,"Autophagocytosis associated protein, active-site domain",2.7E-19,ATG10,Znev_06925,5prime_partial
+Autophagy,ATG4b,TRINITY_DN203283_c6_g1,2.3E-202,2.8E-202,ATG4D_MOUSE,1.52E-125,Cysteine protease ATG4D,PF03416.16,Peptidase family C54,1.5E-102,ATG4D,Znev_10705,complete
+Autophagy,ATG5,TRINITY_DN207415_c8_g2,3.9E-136,4.4E-136,ATG5_BOVIN,1.13E-113,Autophagy protein 5,PF04106.9,Autophagy protein Apg5,4E-58,ATG5,Znev_12390,complete
+Autophagy,ATG6,TRINITY_DN199491_c0_g1,1.2E-249,1.4E-249,BECN1_DROME,0,Beclin-1-like protein,PF04111.9,Autophagy protein Apg6,1.7E-123,ATG6_(Beclin),"Znev_17966,Znev_07723",complete
+Autophagy,ATG7,TRINITY_DN208632_c6_g1,4.1E-258,4.7E-258,ATG7_CHICK,0,Ubiquitin-like modifier-activating enzyme ATG7,PF16420.2,Ubiquitin-like modifier-activating enzyme ATG7 N-terminus,1.2E-85,ATG7,Znev_17566,complete
+Autophagy,ATG8,TRINITY_DN208319_c2_g1,5.4E-90,6E-90,GBRAP_RAT,4.33E-77,Gamma-aminobutyric acid receptor-associated protein,PF02991.13,Autophagy protein Atg8 ubiquitin like,3E-49,ATG8_(Gabarap),Znev_13859,complete
+Autophagy,ATG9,TRINITY_DN211417_c2_g1,0,0,ATG9A_BOVIN,0,Autophagy-related protein 9A,PF04109.13,Autophagy protein Apg9,5.8E-134,ATG9,Znev_01174,complete
+Autophagy,PepC54_ATG,TRINITY_DN201679_c0_g1,2.2E-184,2.5E-184,ATG4B_DANRE,2.13E-130,Cysteine protease ATG4B,PF03416.16,Peptidase family C54,4.9E-95,ATG4B,Znev_05555,complete
+Autophagy,ULK_ATG,TRINITY_DN201921_c0_g1,2.9E-95,4.5E-95,ULK3_XENLA,1.58E-157,Serine/threonine-protein kinase ULK3,PF07714.14,Protein tyrosine kinase,2.3E-45,ULK3,Znev_04866,complete
+Autophagy,ULK_ATG,TRINITY_DN207690_c9_g1,2E-101,3E-101,UNC51_CAEEL,1E-178,Serine/threonine-protein kinase unc-51,PF07714.14,Protein tyrosine kinase,1.2E-43,ULK2_(unc-51-like_kinase_2)_,Znev_10659,complete
+Autophagy,,TRINITY_DN211446_c3_g2,,,,,,,,,RB1-inducible_coiled-coil_,Znev_02531,complete
+Autophagy,ATG16,TRINITY_DN198838_c0_g1,,,,,,,,,ATG16L1,Znev_10009,complete
+Autophagy,,TRINITY_DN163397_c0_g1,,,,,,,,,WD_repeat-containing_protein_65,Znev_02990,internal
+Apotosis,Apaf-caspas,TRINITY_DN203797_c6_g1,7.3E-150,5.1E-142,APAF_MOUSE,8.81E-103,Apoptotic protease-activating factor 1,PF00400.29,"WD domain, G-beta repeat",0.00021,APAF-2,Znev_00246,complete
+Apotosis,CASPs,TRINITY_DN200568_c1_g1,4.6E-35,5.7E-35,CASP1_DROME,5.48E-45,Caspase-1,PF00656.19,Caspase domain,3.7E-33,,,complete
+Apotosis,CASPs,TRINITY_DN200683_c1_g1,2.4E-40,6.3E-40,CASP1_SPOFR,4.62E-59,Caspase-1,PF00656.19,Caspase domain,2.2E-46,Effector_caspase,Znev_08436,complete
+Apotosis,CASPs,TRINITY_DN200765_c0_g1,2.1E-26,3E-26,CASP1_SPOFR,8.02E-43,Caspase-1,PF00656.19,Caspase domain,7.2E-28,,,complete
+Apotosis,CASPs,TRINITY_DN202202_c0_g1,2.5E-45,3.1E-45,CASP1_SPOFR,8.54E-93,Caspase-1,PF00656.19,Caspase domain,1.6E-44,Effector_caspase,Znev_17676,complete
+Apotosis,CASPs,TRINITY_DN207137_c3_g1,2.1E-47,2.3E-47,CASP1_SPOFR,7.99E-85,Caspase-1,PF00656.19,Caspase domain,1.9E-47,Effector_caspase,"Znev_18362,Znev_14304",complete
+Apotosis,CASPs,TRINITY_DN207884_c5_g1,5.5E-38,6.5E-38,CASP2_CHICK,2.5E-42,Caspase-2,PF00619.18,Caspase recruitment domain,0.000000029,,,complete
+Apotosis,CASPs,TRINITY_DN211317_c5_g1,1.5E-48,2E-48,CASP1_SPOFR,1.66E-129,Caspase-1,PF00656.19,Caspase domain,2.4E-48,Ice_(effector_caspase-1),Znev_13497,complete
+Apotosis,CASPs,TRINITY_DN211335_c4_g1,7.4E-39,9.2E-38,CASP8_DROPS,1.02E-66,Caspase-8,PF00656.19,Caspase domain,7E-27,DREDD/Nedd2,Znev_13406,5prime_partial
+Apotosis,,TRINITY_DN199235_c0_g1,,,,,,,,,DCN1-like_protein,Znev_00522,complete
+Apotosis,IAPs,TRINITY_DN205171_c1_g1,1.7E-55,1.5E-23,DIAP2_DROME,6.22E-77,Death-associated inhibitor of apoptosis 2,PF00653.18,Inhibitor of Apoptosis domain,4.7E-19,,,complete
+Apotosis,IAPs,TRINITY_DN206284_c4_g1,1.6E-18,2E-18,BIR52_XENTR,1.75E-32,Baculoviral IAP repeat-containing protein 5.2,PF00653.18,Inhibitor of Apoptosis domain,2.3E-20,,,complete
+Apotosis,IAPs,TRINITY_DN210057_c3_g1,2.4E-42,1.6E-24,DIAP1_DROME,2.39E-77,Death-associated inhibitor of apoptosis 1,PF13920.3,"Zinc finger, C3HC4 type (RING finger)",1.6E-12,,,complete
+Apotosis,IAPs,TRINITY_DN211323_c2_g1,3.3E-20,8.1E-20,BIRC6_MOUSE,1.38E-107,Baculoviral IAP repeat-containing protein 6,PF00653.18,Inhibitor of Apoptosis domain,7.6E-21,,,internal
+Effector,GPXs,TRINITY_DN206442_c7_g2,3.4E-82,3.8E-82,GPX4_CALJA,7.07E-63,"Phospholipid hydroperoxide glutathione peroxidase, mitochondrial",PF00255.16,Glutathione peroxidase,1.6E-42,,,complete
+Effector,GPXs,TRINITY_DN206811_c7_g2,1.5E-74,1.8E-74,GPX4_CALJA,2.48E-60,"Phospholipid hydroperoxide glutathione peroxidase, mitochondrial",PF00255.16,Glutathione peroxidase,6.5E-41,,,complete
+Effector,HPXs,TRINITY_DN150155_c0_g1,1.6E-45,1.7E-45,PXDN_XENTR,5.97E-36,Peroxidasin,PF03098.12,Animal haem peroxidase,8.1E-54,,,internal
+Effector,HPXs,TRINITY_DN151240_c0_g1,2.5E-44,2.7E-44,PERT_PIG,2.01E-25,Thyroid peroxidase,PF03098.12,Animal haem peroxidase,5.8E-40,Peroxidasin/Chorion_peroxidase,"Znev_16996,Znev_09888",internal
+Effector,HPXs,TRINITY_DN151240_c1_g1,2.4E-18,2.6E-18,PXDN_CAEEL,0.000000002,Peroxidasin homolog,PF03098.12,Animal haem peroxidase,1.7E-09,,,internal
+Effector,HPXs,TRINITY_DN151745_c0_g1,3E-26,3.2E-26,PXDN_MOUSE,2.26E-14,Peroxidasin homolog,PF03098.12,Animal haem peroxidase,2.2E-22,,,internal
+Effector,HPXs,TRINITY_DN165703_c0_g1,4.1E-54,4.7E-54,PERM_MOUSE,7.44E-27,Myeloperoxidase,PF03098.12,Animal haem peroxidase,2.1E-55,,,internal
+Effector,HPXs,TRINITY_DN165703_c1_g1,7.2E-40,8E-40,PLSP3_LOTGI,5.4E-26,Peroxidase-like protein 3,PF03098.12,Animal haem peroxidase,1.8E-36,,,internal
+Effector,HPXs,TRINITY_DN177411_c0_g1,5.8E-80,7.1E-80,SKPO1_CAEEL,4.5E-40,Peroxidase skpo-1,PF03098.12,Animal haem peroxidase,4.2E-59,,,5prime_partial
+Effector,HPXs,TRINITY_DN200589_c0_g1,1.8E-177,2.4E-177,PXDN_XENTR,1.28E-102,Peroxidasin,PF03098.12,Animal haem peroxidase,4.1E-153,Peroxidasin/Chorion_peroxidase,"Znev_16904,Znev_16752",5prime_partial
+Effector,HPXs,TRINITY_DN200589_c1_g1,7.5E-18,9.6E-18,PXDN_CAEBR,1.59E-08,Peroxidasin homolog,PF03098.12,Animal haem peroxidase,3.6E-11,,,internal
+Effector,HPXs,TRINITY_DN200589_c2_g1,1.6E-25,1.7E-25,PERC_AEDAE,2.85E-20,Chorion peroxidase,PF03098.12,Animal haem peroxidase,1.2E-27,,,internal
+Effector,HPXs,TRINITY_DN200589_c3_g1,1.3E-13,1.4E-13,PXDN_XENTR,0.00000535,Peroxidasin,PF03098.12,Animal haem peroxidase,3.5E-13,,,internal
+Effector,HPXs,TRINITY_DN200589_c4_g1,4.3E-22,4.7E-22,PERT_HUMAN,2.44E-12,Thyroid peroxidase,PF03098.12,Animal haem peroxidase,4.7E-22,,,3prime_partial
+Effector,HPXs,TRINITY_DN208562_c0_g1,1.9E-10,2E-10,PERM_MOUSE,0.000257,Myeloperoxidase,PF03098.12,Animal haem peroxidase,1.8E-11,,,internal
+Effector,HPXs,TRINITY_DN208562_c1_g1,3.9E-110,4.4E-110,PERC_DROME,2.22E-60,Chorion peroxidase,PF03098.12,Animal haem peroxidase,7.1E-95,Peroxidasin/Chorion_peroxidase,"Znev_16996,Znev_09888",internal
+Effector,HPXs,TRINITY_DN208562_c12_g1,7.5E-11,7.5E-11,PXDNL_HUMAN,7.08E-12,Peroxidasin-like protein,PF03098.12,Animal haem peroxidase,1.3E-11,,,internal
+Effector,HPXs,TRINITY_DN208562_c6_g1,4.1E-61,4.6E-61,PXDN_CAEBR,1.32E-29,Peroxidasin homolog,PF03098.12,Animal haem peroxidase,2E-45,,,5prime_partial
+Effector,HPXs,TRINITY_DN211353_c4_g2,7.5E-89,1.1E-88,DUOX_DROME,0,Dual oxidase,PF03098.12,Animal haem peroxidase,1E-143,Dual_oxidase/heme_peroxidase,"Znev_17480,Znev_00592",complete
+Effector,HPXs,TRINITY_DN211655_c0_g1,2.3E-196,2.8E-196,PERO_DROME,0,Peroxidase,PF03098.12,Animal haem peroxidase,4.3E-185,Peroxidase,Znev_03574,5prime_partial
+Effector,HPXs,TRINITY_DN212550_c1_g1,2E-214,2.2E-214,PERC_DROME,1.14E-147,Chorion peroxidase,PF03098.12,Animal haem peroxidase,1.2E-207,,,5prime_partial
+Effector,HPXs,TRINITY_DN212828_c11_g2,3.9E-184,5.1E-184,PXDN_MOUSE,0,Peroxidasin homolog,PF13306.3,Leucine rich repeats (6 copies),0.064,Peroxidasin/Chorion_peroxidase,Znev_01987,5prime_partial
+Effector,HPXs,TRINITY_DN212846_c0_g2,3.2E-209,3.8E-209,PERC_DROME,8.78E-121,Chorion peroxidase,PF03098.12,Animal haem peroxidase,3E-190,Peroxidasin/Chorion_peroxidase,Znev_02993,3prime_partial
+Effector,HPXs,TRINITY_DN213505_c6_g1,1E-147,1.1E-147,PERO_DROME,7.93E-105,Peroxidase,PF03098.12,Animal haem peroxidase,3.3E-147,Peroxidase,Znev_03575,complete
+Effector,HPXs,TRINITY_DN240373_c0_g1,4.1E-18,4.4E-18,DUOX_DROME,1.39E-99,Dual oxidase,PF03098.12,Animal haem peroxidase,8.2E-35,,,internal
+Effector,HPXs,TRINITY_DN26206_c0_g1,6.1E-19,6.7E-19,PERL_BUBBU,0.0000958,Lactoperoxidase,PF03098.12,Animal haem peroxidase,4.6E-13,,,internal
+Effector,HPXs,TRINITY_DN263380_c0_g1,2E-10,2E-10,PXDN_DROME,6.2E-11,Peroxidasin,PF03098.12,Animal haem peroxidase,7.4E-13,,,internal
+Effector,HPXs,TRINITY_DN27310_c0_g1,9.4E-23,1E-22,DUOX_DROME,1.36E-48,Dual oxidase,PF03098.12,Animal haem peroxidase,1.8E-34,,,internal
+Effector,HPXs,TRINITY_DN79403_c0_g1,1.6E-28,1.8E-28,PERC_DROME,6.85E-13,Chorion peroxidase,PF03098.12,Animal haem peroxidase,2.3E-22,,,internal
+Effector,HPXs,TRINITY_DN79403_c1_g1,8.9E-27,9E-27,PXDN_DROME,1.03E-20,Peroxidasin,PF03098.12,Animal haem peroxidase,9.3E-28,,,internal
+Effector,HPXs,TRINITY_DN134564_c0_g1,,,,,,,,,Dual_oxidase/heme_peroxidase,Znev_17480,internal
+Effector,PPOs,TRINITY_DN150244_c0_g1,7.9E-11,8.4E-11,HCYB_PANIN,2.24E-14,Hemocyanin B chain,PF03723.11,"Hemocyanin, ig-like domain",1.2E-19,,,internal
+Effector,PPOs,TRINITY_DN150244_c1_g1,8.6E-09,9.4E-09,HCYD_SCUCO,1.53E-09,Hemocyanin subunit D,PF03723.11,"Hemocyanin, ig-like domain",5.9E-10,,,5prime_partial
+Effector,PPOs,TRINITY_DN181389_c2_g1,6E-41,6.8E-41,HCYA_PANIN,2.06E-52,Hemocyanin A chain,PF03723.11,"Hemocyanin, ig-like domain",1.4E-48,Hemocyanin,Znev_04925,3prime_partial
+Effector,PPOs,TRINITY_DN181389_c3_g1,2.1E-24,2.4E-24,HCYA_PANIN,2.37E-30,Hemocyanin A chain,PF00372.16,"Hemocyanin, copper containing domain",9.6E-31,,,5prime_partial
+Effector,PPOs,TRINITY_DN214369_c3_g1,0,0,PPO2_DROME,0,Phenoloxidase 2,PF03723.11,"Hemocyanin, ig-like domain",1.5E-82,prophenoloxidase,Znev_05598,complete
+Effector,TPXs,TRINITY_DN199262_c2_g1,1.9E-53,2.1E-53,PRDX6_PIG,5.76E-74,Peroxiredoxin-6,PF08534.7,Redoxin,0.000001,,,complete
+Effector,TPXs,TRINITY_DN200539_c2_g1,2.4E-90,2.8E-90,PRDX4_MOUSE,1.92E-123,Peroxiredoxin-4,PF08534.7,Redoxin,2.3E-12,,,complete
+Effector,TPXs,TRINITY_DN202519_c7_g1,1.6E-50,1.9E-50,PRDX6_PONAB,1.33E-74,Peroxiredoxin-6,PF08534.7,Redoxin,1.2E-10,,,complete
+Effector,TPXs,TRINITY_DN202739_c2_g1,4.9E-60,6.1E-60,PRDX6_CHICK,1.3E-104,Peroxiredoxin-6,PF00578.18,AhpC/TSA family,2.3E-30,,,complete
+Effector,TPXs,TRINITY_DN206575_c10_g1,4.8E-91,5.9E-91,PRDX1_DROME,2.37E-110,Peroxiredoxin 1,PF10417.6,C-terminal domain of 1-Cys peroxiredoxin,1.8E-12,,,complete
+Effector,TPXs,TRINITY_DN207196_c0_g1,1.1E-87,1.3E-87,PRDX3_RAT,1.66E-105,"Thioredoxin-dependent peroxide reductase, mitochondrial",PF00578.18,AhpC/TSA family,2.6E-37,,,complete
+Effector,TPXs,TRINITY_DN209350_c3_g1,8.1E-57,9.5E-57,PRDX6_CHICK,2.67E-80,Peroxiredoxin-6,PF08534.7,Redoxin,2.1E-09,,,5prime_partial
+Effector,TPXs,TRINITY_DN210463_c0_g2,3.5E-11,4.2E-11,PRDX6_CHICK,4.89E-22,Peroxiredoxin-6,PF10417.6,C-terminal domain of 1-Cys peroxiredoxin,3.6E-13,,,5prime_partial
+Recognition,SCRA,TRINITY_DN137005_c1_g1,,,,,,,,,SCRA,Znev_12289,5prime_partial
+Recognition,SCRA,TRINITY_DN207370_c8_g1,,,,,,,,,SCARA,Znev_09907,5prime_partial
+Recognition,SCRA,TRINITY_DN208432_c1_g1,,,,,,,,,SCARA,Znev_03412,5prime_partial
+Recognition,SCR,TRINITY_DN212296_c2_g1,,,,,,,,,SRCR,Znev_12911,complete
+Recognition,SCRA,TRINITY_DN213333_c1_g1,,,,,,,,,SCARA_(Scavenger_receptor_class_A-like),Znev_09392,complete
+Recognition,SCRA,TRINITY_DN204591_c0_g1,,,,,,,,,"SRCR_(scavenger_receptor_class_A-like,_cysteine-rich)",Znev_12950,complete
+Recognition,SCRBs,TRINITY_DN151912_c0_g1,,,,,,,,,SCARB,Znev_14227,internal
+Recognition,SCRBs,TRINITY_DN122913_c0_g1,5.3E-25,6.2E-25,CRQ_DROME,2.65E-23,Protein croquemort,PF01130.18,CD36 family,8.5E-30,,,internal
+Recognition,SCRBs,TRINITY_DN122913_c2_g1,6.9E-31,7.6E-31,SCRB1_CRIGR,2.59E-20,Scavenger receptor class B member 1,PF01130.18,CD36 family,1.8E-33,,,internal
+Recognition,SCRBs,TRINITY_DN201036_c0_g1,4.1E-100,5.2E-100,CRQ_DROME,4.3E-79,Protein croquemort,PF01130.18,CD36 family,7.3E-133,,,complete
+Recognition,SCRBs,TRINITY_DN204157_c1_g1,1.5E-94,1.8E-94,SCRB1_RAT,2.09E-52,Scavenger receptor class B member 1,PF01130.18,CD36 family,6.6E-107,SCARB,Znev_09665,internal
+Recognition,SCRBs,TRINITY_DN204974_c10_g3,1.6E-107,2E-107,CRQ_DROME,9.94E-97,Protein croquemort,PF01130.18,CD36 family,6.4E-144,,,complete
+Recognition,SCRBs,TRINITY_DN205230_c2_g1,2.9E-119,4.1E-119,SCRB1_PIG,1.29E-68,Scavenger receptor class B member 1,PF01130.18,CD36 family,3.5E-124,SCARB,"Znev_14227,Znev_09663",complete
+Recognition,SCRBs,TRINITY_DN206915_c7_g1,2.3E-116,2.8E-116,SCRB1_PIG,1.3E-91,Scavenger receptor class B member 1,PF01130.18,CD36 family,5.9E-152,SCARB,Znev_09668,complete
+Recognition,SCRBs,TRINITY_DN206998_c9_g1,5.3E-97,6.4E-97,SNMP1_APIME,1.54E-153,Sensory neuron membrane protein 1,PF01130.18,CD36 family,1.3E-125,SCARB,"Znev_05148,Znev_05147",5prime_partial
+Recognition,SCRBs,TRINITY_DN208844_c0_g1,1.3E-114,1.7E-114,CRQ_DROME,6.81E-109,Protein croquemort,PF01130.18,CD36 family,6E-154,"SCARB,croquemort_type","Znev_17151,Znev_01929",complete
+Recognition,SCRBs,TRINITY_DN209233_c3_g1,6.6E-09,6.6E-09,SNMP1_CULQU,0.0000757,Sensory neuron membrane protein 1,PF01130.18,CD36 family,6.2E-14,,,3prime_partial
+Recognition,SCRBs,TRINITY_DN209233_c3_g2,8.4E-09,8.4E-09,SNMP1_CULQU,0.0000814,Sensory neuron membrane protein 1,PF01130.18,CD36 family,1E-13,,,internal
+Recognition,SCRBs,TRINITY_DN209233_c5_g1,1.5E-61,1.7E-61,CRQ_DROME,8.94E-43,Protein croquemort,PF01130.18,CD36 family,1.4E-76,,,internal
+Recognition,SCRBs,TRINITY_DN209233_c7_g1,9.9E-14,9.9E-14,SNMP1_OSTFU,5.09E-11,Sensory neuron membrane protein 1,PF01130.18,CD36 family,2.4E-25,,,5prime_partial
+Recognition,SCRBs,TRINITY_DN209233_c8_g1,6.3E-97,8.9E-97,CRQ_DROME,9.75E-76,Protein croquemort,PF01130.18,CD36 family,2E-129,,,complete
+Recognition,SCRBs,TRINITY_DN209425_c4_g1,2.7E-103,3.6E-103,CRQ_DROME,2.81E-94,Protein croquemort,PF01130.18,CD36 family,8.5E-141,,,complete
+Recognition,SCRBs,TRINITY_DN209511_c5_g1,7.9E-102,1E-101,CRQ_DROME,3.19E-113,Protein croquemort,PF01130.18,CD36 family,1.2E-135,"SCARB_(scavenger_receptor_class_B),_croquemort_type",Znev_01894,complete
+Recognition,SCRBs,TRINITY_DN211612_c0_g1,4.8E-121,5.6E-121,SCRB1_MOUSE,3.75E-73,Scavenger receptor class B member 1,PF01130.18,CD36 family,1.4E-135,SCARB,Znev_17970,complete
+Recognition,SCRBs,TRINITY_DN212608_c7_g1,8.8E-97,1.1E-96,SNMP1_APIME,2.23E-149,Sensory neuron membrane protein 1,PF01130.18,CD36 family,4E-130,SCARB,"Znev_05148,Znev_05147",5prime_partial
+Recognition,SCRBs,TRINITY_DN212784_c3_g1,1.4E-112,1.6E-112,SCRB1_BOVIN,2.66E-75,Scavenger receptor class B member 1,PF01130.18,CD36 family,2E-135,,,5prime_partial
+Recognition,SCRCs,TRINITY_DN146135_c0_g1,3.8E-43,1.5E-17,MLRP2_ACRMI,1.35E-42,MAM and LDL-receptor class A domain-containing protein 2,PF00629.20,"MAM domain, meprin/A5/mu",1.4E-28,LDL_receptor,"Znev_11466,Znev_11465",5prime_partial
+Recognition,SCRCs,TRINITY_DN194647_c0_g1,2.6E-124,3.2E-124,MLRP2_ACRMI,4.78E-33,MAM and LDL-receptor class A domain-containing protein 2,PF00084.17,Sushi repeat (SCR repeat),0.0044,,,5prime_partial
+Recognition,SCRCs,TRINITY_DN28175_c1_g1,,,,,,,,,LDL_receptor,Znev_11467,internal
+Signaling,CLIPs,TRINITY_DN103011_c0_g1,7.1E-12,7.3E-12,HEPS_RAT,4.15E-09,Serine protease hepsin,PF00089.23,Trypsin,8.2E-13,,,internal
+Signaling,CLIPs,TRINITY_DN116125_c0_g1,3.1E-78,3.4E-78,TRY3_CHICK,1E-47,Trypsin II-P29,PF00089.23,Trypsin,4.4E-65,cSP_(serine_proteasestubble),Znev_12938,5prime_partial
+Signaling,CLIPs,TRINITY_DN120666_c0_g1,3.3E-23,3.7E-23,STUB_DROME,1.77E-17,Serine proteinase stubble,PF00089.23,Trypsin,1.1E-25,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN128478_c0_g1,4.9E-10,5.8E-10,EAST_DROME,1.86E-08,Serine protease easter,PF00089.23,Trypsin,0.00000016,,,internal
+Signaling,CLIPs,TRINITY_DN138339_c0_g1,1.3E-47,1.5E-47,TRY1_ANOGA,8.18E-46,Trypsin-1,PF00089.23,Trypsin,1.2E-57,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN146385_c0_g1,1.2E-20,1.4E-20,TRYU_DROER,7E-21,Trypsin eta,PF00089.23,Trypsin,2.5E-26,,,3prime_partial
+Signaling,CLIPs,TRINITY_DN146385_c1_g1,3.9E-12,4.5E-12,TRY2_MOUSE,2.57E-14,Anionic trypsin-2,PF00089.23,Trypsin,1.2E-12,,,internal
+Signaling,CLIPs,TRINITY_DN164285_c1_g1,8.3E-48,1.1E-47,TRY3_ANOGA,2.8E-47,Trypsin-3,PF00089.23,Trypsin,1.8E-54,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN165791_c1_g1,1.6E-12,1.8E-12,TRY1_ANOGA,1.05E-11,Trypsin-1,PF00089.23,Trypsin,5.2E-15,,,internal
+Signaling,CLIPs,TRINITY_DN165791_c2_g1,1.2E-41,1.3E-41,TRYP_ASTAS,1.57E-39,Trypsin-1,PF00089.23,Trypsin,3.9E-43,Coagulation_factor_XI,"Znev_16656, Znev_12298",internal
+Signaling,CLIPs,TRINITY_DN168020_c0_g1,8.2E-27,9E-27,TRY7_ANOGA,1.87E-28,Trypsin-7,PF00089.23,Trypsin,1.5E-31,,,internal
+Signaling,CLIPs,TRINITY_DN168098_c0_g1,8.9E-48,1.1E-47,TRY7_ANOGA,6.18E-62,Trypsin-7,PF13365.3,Trypsin-like peptidase domain,0.000000013,,,3prime_partial
+Signaling,CLIPs,TRINITY_DN177253_c0_g1,1.1E-43,1E-42,KLKB1_MOUSE,1.48E-22,Plasma kallikrein,PF00089.23,Trypsin,3.7E-17,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN177253_c0_g2,1.6E-54,2E-54,KLKB1_BOVIN,6.61E-34,Plasma kallikrein,PF00089.23,Trypsin,3.4E-48,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN180733_c0_g1,5.5E-76,6.2E-76,STUB_DROME,6.48E-157,Serine proteinase stubble,PF00089.23,Trypsin,2.3E-62,cSP_(serine_proteasestubble),Znev_09866,5prime_partial
+Signaling,CLIPs,TRINITY_DN186830_c0_g1,1.6E-46,1.9E-46,TMPS3_MOUSE,3.75E-31,Transmembrane protease serine 3,PF00089.23,Trypsin,1.1E-42,,,complete
+Signaling,CLIPs,TRINITY_DN190257_c0_g1,3.1E-49,4E-49,TRY1_ANOGA,4.16E-64,Trypsin-1,PF00089.23,Trypsin,4.2E-64,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN191962_c0_g1,1.2E-66,1.3E-66,SNAK_DROME,1.04E-65,Serine protease snake,PF00089.23,Trypsin,2.2E-52,,,complete
+Signaling,CLIPs,TRINITY_DN192813_c2_g1,2.3E-16,2.6E-16,STUB_DROME,2.78E-16,Serine proteinase stubble,PF00089.23,Trypsin,4E-15,cSP_(serine_proteasestubble),Znev_17166,internal
+Signaling,CLIPs,TRINITY_DN194388_c0_g1,3.5E-51,4E-51,CTRB1_LITVA,2.12E-69,Chymotrypsin BI,PF00089.23,Trypsin,7E-59,,,complete
+Signaling,CLIPs,TRINITY_DN194806_c0_g1,3.8E-11,3.8E-11,TRYE_DROER,9.73E-25,Trypsin epsilon,PF00089.23,Trypsin,2.3E-16,,,internal
+Signaling,CLIPs,TRINITY_DN194806_c1_g1,2.6E-40,2.8E-40,TRY1_ANOGA,4.7E-47,Trypsin-1,PF13365.3,Trypsin-like peptidase domain,0.0000012,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN195636_c1_g1,3.9E-19,4.5E-19,TM11B_MOUSE,3.47E-12,Transmembrane protease serine 11B-like protein,PF00089.23,Trypsin,5.7E-16,,,internal
+Signaling,CLIPs,TRINITY_DN197303_c0_g2,8.5E-40,1.1E-39,PCE_TACTR,3.57E-27,Proclotting enzyme,PF00089.23,Trypsin,1.7E-35,,,complete
+Signaling,CLIPs,TRINITY_DN197303_c5_g1,4E-11,4E-11,CTRB1_LITVA,1.28E-13,Chymotrypsin BI,PF00089.23,Trypsin,1.2E-13,,,internal
+Signaling,CLIPs,TRINITY_DN197824_c0_g1,3.7E-39,4.3E-39,TRY7_ANOGA,4.86E-41,Trypsin-7,PF00089.23,Trypsin,1E-46,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN198138_c1_g1,5.5E-70,6.8E-70,SP4_BOMPE,2.7E-52,Venom protease,PF00089.23,Trypsin,8.7E-58,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN198196_c0_g1,1.8E-24,2.3E-24,TRY4_ANOGA,1.48E-21,Trypsin-4,PF00089.23,Trypsin,2.6E-20,,,complete
+Signaling,CLIPs,TRINITY_DN198284_c0_g2,6.3E-42,8E-42,LFC_CARRO,3.1E-45,Limulus clotting factor C,PF00089.23,Trypsin,4.3E-45,,,complete
+Signaling,CLIPs,TRINITY_DN198392_c0_g1,3.3E-28,3.9E-28,KLK13_HUMAN,2.67E-18,Kallikrein-13,PF00089.23,Trypsin,7.7E-26,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN198412_c0_g2,1.9E-33,2.2E-33,TRYZ_DROME,7.55E-29,Trypsin zeta,PF00089.23,Trypsin,1.2E-36,,,complete
+Signaling,CLIPs,TRINITY_DN198524_c0_g1,2.4E-32,3.2E-32,TRY3_ANOGA,1.21E-43,Trypsin-3,PF00089.23,Trypsin,9.8E-45,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN199137_c0_g1,1.4E-48,1.6E-48,TRY3_ANOGA,1.43E-66,Trypsin-3,PF00089.23,Trypsin,9.6E-60,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN199205_c1_g1,1.9E-16,2.2E-16,TMPS9_HUMAN,5.16E-17,Transmembrane protease serine 9,PF00089.23,Trypsin,7.5E-16,,,complete
+Signaling,CLIPs,TRINITY_DN199205_c2_g1,4.4E-24,5.1E-24,STUB_DROME,2.46E-28,Serine proteinase stubble,PF00089.23,Trypsin,5.6E-23,,,internal
+Signaling,CLIPs,TRINITY_DN199209_c0_g2,1.1E-41,1.4E-41,EAST_DROME,2.3E-29,Serine protease easter,PF00089.23,Trypsin,1.6E-36,,,complete
+Signaling,CLIPs,TRINITY_DN199291_c0_g1,1.3E-24,1.6E-24,TRY5_AEDAE,3.02E-26,Trypsin 5G1,PF00089.23,Trypsin,6.5E-26,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN199952_c0_g1,4.6E-34,5.4E-34,PRS48_HUMAN,1.94E-23,Serine protease 48,PF00089.23,Trypsin,9.2E-31,,,complete
+Signaling,CLIPs,TRINITY_DN200535_c0_g1,1.8E-56,2.4E-56,TRY7_ANOGA,3.4E-62,Trypsin-7,PF00089.23,Trypsin,5.2E-63,,,complete
+Signaling,CLIPs,TRINITY_DN200662_c1_g1,7.3E-64,8.8E-64,TRY1_BOVIN,2.36E-52,Cationic trypsin,PF00089.23,Trypsin,1.7E-70,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN200811_c0_g1,2.1E-50,2.4E-50,CTRB1_LITVA,1.81E-72,Chymotrypsin BI,PF13365.3,Trypsin-like peptidase domain,5.8E-09,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201014_c0_g1,4.2E-54,5E-54,CTR2_VESCR,2.45E-54,Chymotrypsin-2,PF13365.3,Trypsin-like peptidase domain,0.0000017,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201020_c2_g1,1.4E-52,1.6E-52,TRYP_ASTAS,1.48E-47,Trypsin-1,PF00089.23,Trypsin,9.7E-63,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201073_c0_g1,5.7E-54,7E-54,TRY1_ANOGA,2.37E-69,Trypsin-1,PF13365.3,Trypsin-like peptidase domain,0.00000015,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201196_c3_g1,1.4E-55,5.4E-55,PCE_TACTR,3.82E-48,Proclotting enzyme,PF00089.23,Trypsin,2E-54,,,complete
+Signaling,CLIPs,TRINITY_DN201210_c0_g2,4.8E-68,6.4E-68,PCE_TACTR,2.54E-52,Proclotting enzyme,PF09342.8,Domain of unknown function (DUF1986),0.0000026,Znev_02675,,complete
+Signaling,CLIPs,TRINITY_DN201352_c0_g1,2.9E-47,5.7E-47,PRS41_HUMAN,1.03E-34,Putative serine protease 41,PF00431.17,CUB domain,0.000017,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201373_c1_g1,3.6E-51,4.2E-51,TRYP_ASTAS,3.53E-49,Trypsin-1,PF00089.23,Trypsin,2.7E-57,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201441_c0_g1,2E-52,2.3E-52,TRY7_ANOGA,2.86E-62,Trypsin-7,PF00089.23,Trypsin,4.5E-61,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN201757_c0_g1,3.5E-50,4.2E-50,TRY7_ANOGA,1.61E-59,Trypsin-7,PF00089.23,Trypsin,1.5E-60,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202245_c0_g1,1.4E-51,1.6E-51,SP34_APIME,4.07E-71,Venom serine protease 34,PF00089.23,Trypsin,1.5E-48,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202314_c0_g1,1E-33,1.2E-33,TRY7_ANOGA,3.6E-27,Trypsin-7,PF00089.23,Trypsin,6.9E-36,,,complete
+Signaling,CLIPs,TRINITY_DN202525_c0_g1,3.3E-62,8.6E-62,SNAK_DROME,3.51E-48,Serine protease snake,PF00089.23,Trypsin,4.3E-50,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202628_c0_g1,6.2E-55,7E-55,TRY1_ANOGA,5.16E-64,Trypsin-1,PF00089.23,Trypsin,3.2E-58,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202663_c0_g1,5.3E-34,7E-34,CTR1_SOLIN,1.75E-27,Chymotrypsin-1,PF00089.23,Trypsin,1.3E-41,,,internal
+Signaling,CLIPs,TRINITY_DN202672_c0_g1,1.3E-52,1.7E-52,TRY3_ANOGA,2.2E-71,Trypsin-3,PF00089.23,Trypsin,1.4E-62,,,complete
+Signaling,CLIPs,TRINITY_DN202673_c0_g1,7.1E-41,9.2E-41,TRY1_ANOGA,4.12E-44,Trypsin-1,PF00089.23,Trypsin,5E-52,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202673_c1_g1,2.5E-40,3.3E-40,TRYP_PHACE,1.69E-44,Trypsin,PF00089.23,Trypsin,3.8E-48,,,complete
+Signaling,CLIPs,TRINITY_DN202673_c1_g2,1.9E-39,2.6E-39,TRY7_ANOGA,2.23E-38,Trypsin-7,PF00089.23,Trypsin,8.8E-48,,,complete
+Signaling,CLIPs,TRINITY_DN202753_c4_g1,3.4E-39,3.7E-39,TRYP_ASTAS,2.22E-33,Trypsin-1,PF00089.23,Trypsin,4.3E-38,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN202780_c0_g1,4.8E-38,5.9E-38,CTRC_HUMAN,3.59E-27,Chymotrypsin-C,PF13365.3,Trypsin-like peptidase domain,0.00000016,,,complete
+Signaling,CLIPs,TRINITY_DN203131_c1_g1,3.3E-57,4.1E-57,EAST_DROME,1.63E-53,Serine protease easter,PF00089.23,Trypsin,9.3E-49,,,complete
+Signaling,CLIPs,TRINITY_DN203274_c4_g3,5.8E-27,7.3E-27,TRY2_SALSA,8.28E-27,Trypsin-2,PF00089.23,Trypsin,7.8E-29,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN203423_c3_g1,1.8E-74,1.8E-74,PCE_TACTR,2.68E-66,Proclotting enzyme,PF00089.23,Trypsin,8.7E-64,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN203473_c0_g2,1.8E-50,2E-50,TRYP_ASTAS,1.38E-50,Trypsin-1,PF00089.23,Trypsin,2.5E-61,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN203701_c0_g1,2.1E-47,2.5E-47,TRY1_ANOGA,1.02E-54,Trypsin-1,PF00089.23,Trypsin,2.5E-55,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN203899_c0_g1,4.7E-66,6.9E-66,SNAK_DROME,1.51E-66,Serine protease snake,PF12032.5,Regulatory CLIP domain of proteinases,0.00018,,,complete
+Signaling,CLIPs,TRINITY_DN204325_c10_g3,7.3E-17,9.1E-17,CTR1_SOLIN,2.48E-14,Chymotrypsin-1,PF00089.23,Trypsin,2.6E-21,,,complete
+Signaling,CLIPs,TRINITY_DN204331_c12_g1,5.3E-57,6.3E-57,EAST_DROME,1.21E-49,Serine protease easter,PF00089.23,Trypsin,3.6E-48,,,complete
+Signaling,CLIPs,TRINITY_DN204349_c0_g1,2.3E-35,2.7E-35,TRY2_ANOGA,1.26E-44,Trypsin-2,PF00089.23,Trypsin,5E-41,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN204403_c0_g1,8.6E-53,9.6E-53,CTRB1_LITVA,2.39E-64,Chymotrypsin BI,PF00089.23,Trypsin,2E-60,,,complete
+Signaling,CLIPs,TRINITY_DN204587_c3_g1,7.1E-61,8.1E-61,KLKB1_BOVIN,2.04E-54,Plasma kallikrein,PF00089.23,Trypsin,2.1E-58,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN204594_c1_g1,3.3E-48,3.9E-48,TRYP_ASTAS,2.35E-49,Trypsin-1,PF00089.23,Trypsin,1.3E-56,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN204701_c0_g1,2.9E-71,3.2E-71,PRS44_MOUSE,1.89E-43,Serine protease 44,PF13365.3,Trypsin-like peptidase domain,0.0000018,cSP_(serine_proteasestubble),Znev_06101,complete
+Signaling,CLIPs,TRINITY_DN205038_c15_g1,7.5E-30,9.1E-30,SP4_BOMPE,7.06E-23,Venom protease,PF00089.23,Trypsin,5E-26,,,complete
+Signaling,CLIPs,TRINITY_DN205038_c16_g1,2.6E-14,9.6E-14,EAST_DROME,3.18E-14,Serine protease easter,PF00089.23,Trypsin,8E-12,,,internal
+Signaling,CLIPs,TRINITY_DN205149_c0_g1,1.5E-71,1.5E-71,SNAK_DROME,1.23E-69,Serine protease snake,PF00089.23,Trypsin,2.1E-58,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN205251_c0_g1,7.3E-55,8.8E-55,TRY7_ANOGA,1.3E-78,Trypsin-7,PF00089.23,Trypsin,1.4E-67,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN205378_c1_g1,5.7E-26,6.8E-26,TRYDG_DROME,3.52E-34,Trypsin delta/gamma,PF00089.23,Trypsin,2.3E-38,,,3prime_partial
+Signaling,CLIPs,TRINITY_DN205378_c3_g1,1.6E-52,1.9E-52,TRY7_ANOGA,6.81E-62,Trypsin-7,PF00089.23,Trypsin,1.3E-61,,,complete
+Signaling,CLIPs,TRINITY_DN205643_c7_g1,2.1E-64,2.4E-64,FA12_PIG,7.22E-48,Coagulation factor XII,PF00089.23,Trypsin,1.4E-61,,,complete
+Signaling,CLIPs,TRINITY_DN205704_c1_g1,2.4E-50,2.8E-50,TRY1_ANOGA,4.34E-73,Trypsin-1,PF00089.23,Trypsin,6.8E-64,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN205799_c16_g1,1.6E-56,2.1E-56,TRY3_AEDAE,2.06E-64,Trypsin 3A1,PF00089.23,Trypsin,1.6E-64,,,complete
+Signaling,CLIPs,TRINITY_DN205845_c4_g1,1.9E-47,2.3E-47,TEST_MOUSE,9.1E-44,Testisin,PF00089.23,Trypsin,5.2E-59,,,complete
+Signaling,CLIPs,TRINITY_DN205922_c0_g1,8E-60,9.8E-60,TRY7_ANOGA,7.63E-44,Trypsin-7,PF00089.23,Trypsin,1.7E-55,,,complete
+Signaling,CLIPs,TRINITY_DN206030_c8_g1,2E-64,2.2E-64,EAST_DROME,2.03E-76,Serine protease easter,PF12032.5,Regulatory CLIP domain of proteinases,4.1E-17,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN206189_c2_g1,0.0000038,0.0000038,CTR1_SOLIN,3.08E-12,Chymotrypsin-1,PF00089.23,Trypsin,1.7E-11,,,3prime_partial
+Signaling,CLIPs,TRINITY_DN206189_c5_g1,5.9E-35,6.1E-35,TRY7_ANOGA,3.13E-41,Trypsin-7,PF00089.23,Trypsin,1.1E-39,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN206428_c4_g1,5.5E-65,6.2E-65,VSP_BOMIG,5.12E-76,Venom serine protease Bi-VSP,PF00089.23,Trypsin,3.5E-54,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN207071_c1_g2,4.4E-39,8.5E-39,LFC_CARRO,2.96E-40,Limulus clotting factor C,PF00084.17,Sushi repeat (SCR repeat),0.0001,,,complete
+Signaling,CLIPs,TRINITY_DN207232_c6_g2,1.3E-60,1.6E-60,PCE_TACTR,4.25E-51,Proclotting enzyme,PF09342.8,Domain of unknown function (DUF1986),3.1E-11,,,complete
+Signaling,CLIPs,TRINITY_DN207404_c7_g1,3.1E-77,6.6E-77,STUB_DROME,1.84E-40,Serine proteinase stubble,PF00089.23,Trypsin,2.9E-53,cSP_(serine_proteasestubble),Znev_05193,complete
+Signaling,CLIPs,TRINITY_DN207574_c0_g1,7.8E-44,9.5E-44,CTRB1_LITVA,3.8E-61,Chymotrypsin BI,PF00089.23,Trypsin,1.2E-54,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN207975_c4_g4,5.9E-47,7.2E-47,TRY3_ANOGA,5.43E-58,Trypsin-3,PF00089.23,Trypsin,1.5E-59,,,complete
+Signaling,CLIPs,TRINITY_DN208065_c2_g1,4.6E-50,4.7E-50,SP34_APIME,1.43E-80,Venom serine protease 34,PF00089.23,Trypsin,1.5E-49,,,complete
+Signaling,CLIPs,TRINITY_DN209414_c10_g1,7E-24,8.8E-24,TRY1_CANLF,2.6E-19,Cationic trypsin,PF13365.3,Trypsin-like peptidase domain,0.00000013,,,complete
+Signaling,CLIPs,TRINITY_DN209682_c5_g1,1.5E-50,1.8E-50,TRY7_ANOGA,3.67E-47,Trypsin-7,PF00089.23,Trypsin,2.2E-57,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN209701_c4_g2,9.8E-38,1.2E-37,TRY7_ANOGA,8.35E-44,Trypsin-7,PF00089.23,Trypsin,1.2E-48,,,complete
+Signaling,CLIPs,TRINITY_DN210028_c8_g1,5.4E-58,6.7E-58,KLKB1_HUMAN,4.05E-49,Plasma kallikrein,PF00089.23,Trypsin,1.4E-62,,,complete
+Signaling,CLIPs,TRINITY_DN210519_c2_g1,3.4E-47,4E-47,TRYP_ASTAS,2.35E-52,Trypsin-1,PF00089.23,Trypsin,4.7E-57,,,complete
+Signaling,CLIPs,TRINITY_DN210614_c3_g1,3.9E-63,4.2E-63,EAST_DROME,1.51E-87,Serine protease easter,PF00089.23,Trypsin,1.5E-52,Easter_(Spaetzle-Processing_enzyme),Znev_10162,complete
+Signaling,CLIPs,TRINITY_DN210801_c1_g1,5E-70,5.2E-70,VSP_BOMIG,3.58E-112,Venom serine protease Bi-VSP,PF00089.23,Trypsin,1.9E-62,,,complete
+Signaling,CLIPs,TRINITY_DN211048_c3_g1,6.5E-49,8E-49,TRY5_ANOGA,2.22E-47,Trypsin-5,PF00089.23,Trypsin,7.2E-63,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN211152_c0_g1,3E-53,3.7E-53,TRY7_ANOGA,8.25E-70,Trypsin-7,PF13365.3,Trypsin-like peptidase domain,3.5E-12,,,complete
+Signaling,CLIPs,TRINITY_DN211373_c1_g1,4.9E-49,6.1E-49,TRY1_ANOGA,2.96E-68,Trypsin-1,PF00089.23,Trypsin,7.3E-63,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN211676_c1_g1,6.4E-51,7.7E-51,STUB_DROME,4.46E-29,Serine proteinase stubble,PF00089.23,Trypsin,8.1E-38,cSP_(serine_proteasestubble),Znev_05138,5prime_partial
+Signaling,CLIPs,TRINITY_DN212041_c0_g2,1.4E-60,1.5E-60,SNAK_DROME,9.12E-58,Serine protease snake,PF00089.23,Trypsin,7.5E-54,,,complete
+Signaling,CLIPs,TRINITY_DN212135_c3_g2,1.6E-11,1.7E-11,GD_DROME,1.24E-11,Serine protease gd,PF00089.23,Trypsin,7.5E-12,,,3prime_partial
+Signaling,CLIPs,TRINITY_DN212694_c2_g1,1.8E-60,2.1E-60,FA10_CHICK,3.11E-48,Coagulation factor X,PF00089.23,Trypsin,2.8E-61,,,complete
+Signaling,CLIPs,TRINITY_DN213919_c0_g3,2.3E-35,2.7E-35,TM11G_RAT,9.96E-37,Transmembrane protease serine 11G,PF00089.23,Trypsin,9E-43,,,complete
+Signaling,CLIPs,TRINITY_DN229351_c0_g1,2.3E-47,2.7E-47,TRYP_ASTAS,1.91E-44,Trypsin-1,PF00089.23,Trypsin,2.3E-47,Coagulation_factor_XI,"Znev_16656,Znev_12298",5prime_partial
+Signaling,CLIPs,TRINITY_DN241239_c0_g1,1.8E-10,1.8E-10,CTRB1_LITVA,2.59E-12,Chymotrypsin BI,PF00089.23,Trypsin,3E-14,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN28487_c0_g2,1.4E-28,1.7E-28,TRYU_DROER,3.1E-25,Trypsin eta,PF00089.23,Trypsin,1.1E-27,,,5prime_partial
+Signaling,CLIPs,TRINITY_DN34868_c0_g1,9.3E-20,1.1E-19,EAST_DROME,3.29E-14,Serine protease easter,PF00089.23,Trypsin,4.5E-14,,,internal
+Signaling,CLIPs,TRINITY_DN43074_c1_g1,8.4E-26,9.2E-26,PCE_TACTR,1.18E-28,Proclotting enzyme,PF00089.23,Trypsin,1E-25,,,internal
+Signaling,SRPNs,TRINITY_DN170074_c0_g1,1.6E-33,2.4E-33,ILEU_BOVIN,2.23E-68,Leukocyte elastase inhibitor,PF00079.17,Serpin (serine protease inhibitor),9.3E-106,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN179560_c2_g1,3.3E-11,3.3E-11,SPB8_MOUSE,1.86E-13,Serpin B8,PF00079.17,Serpin (serine protease inhibitor),3.5E-18,Serine_protease_inhibitor,Znev_05728,internal
+Signaling,SRPNs,TRINITY_DN185998_c0_g1,1.2E-29,1.7E-29,SPB9_HUMAN,4.49E-55,Serpin B9,PF00079.17,Serpin (serine protease inhibitor),6E-106,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN196029_c0_g1,9.7E-29,1.3E-28,NEUS_HUMAN,3.74E-48,Neuroserpin,PF00079.17,Serpin (serine protease inhibitor),1.1E-87,,,complete
+Signaling,SRPNs,TRINITY_DN201023_c0_g1,3.7E-19,2.5E-18,Y2678_METMA,6.18E-40,Uncharacterized serpin-like protein MM_2675,PF00079.17,Serpin (serine protease inhibitor),2.6E-75,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN201407_c0_g2,7.5E-25,1E-24,ILEUC_MOUSE,3.37E-37,Leukocyte elastase inhibitor C,PF00079.17,Serpin (serine protease inhibitor),7.6E-65,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN201927_c0_g1,6.7E-33,8.5E-33,SPB4_HUMAN,2.05E-55,Serpin B4,PF00079.17,Serpin (serine protease inhibitor),2.7E-99,Serine_protease_inhibitor,Znev_11095,complete
+Signaling,SRPNs,TRINITY_DN203015_c0_g1,1.2E-22,3E-22,SPB4_HUMAN,2E-33,Serpin B4,PF00079.17,Serpin (serine protease inhibitor),4.8E-80,Serine_protease_inhibitor,Znev_10043,5prime_partial
+Signaling,SRPNs,TRINITY_DN203799_c11_g1,3.6E-36,4.4E-36,SPB8_BOVIN,1.33E-80,Serpin B8,PF00079.17,Serpin (serine protease inhibitor),6.1E-113,Serine_protease_inhibitor,Znev_03219,5prime_partial
+Signaling,SRPNs,TRINITY_DN204212_c0_g2,2.7E-34,3.7E-34,SPB3_HUMAN,4.4E-61,Serpin B3,PF00079.17,Serpin (serine protease inhibitor),1.2E-101,Serine_protease_inhibitor,Znev_01881,complete
+Signaling,SRPNs,TRINITY_DN204925_c0_g1,1.7E-25,2.3E-25,ILEUB_MOUSE,1.53E-46,Leukocyte elastase inhibitor B,PF00079.17,Serpin (serine protease inhibitor),6.5E-86,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN206043_c1_g1,1.9E-21,2.5E-21,NEUS_RAT,1.35E-28,Neuroserpin,PF00079.17,Serpin (serine protease inhibitor),2.4E-64,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN206323_c1_g1,1.4E-33,1.9E-33,SPB8_BOVIN,1.43E-48,Serpin B8,PF00079.17,Serpin (serine protease inhibitor),1.2E-93,Serine_protease_inhibitor,Znev_02826,complete
+Signaling,SRPNs,TRINITY_DN206893_c3_g3,8E-28,1.1E-27,ILEU_XENTR,1.67E-40,Leukocyte elastase inhibitor,PF00079.17,Serpin (serine protease inhibitor),3.3E-74,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN206969_c8_g1,1E-37,1.3E-37,ILEUC_MOUSE,8.89E-87,Leukocyte elastase inhibitor C,PF00079.17,Serpin (serine protease inhibitor),6.3E-123,Serine_protease_inhibitor,Znev_11231,5prime_partial
+Signaling,SRPNs,TRINITY_DN207611_c0_g1,1.2E-40,2.3E-40,,,,PF00079.17,Serpin (serine protease inhibitor),2.5E-28,Leukocyte_elastase_inhibitor,Znev_06230,5prime_partial
+Signaling,SRPNs,TRINITY_DN207644_c13_g2,1.4E-37,2.3E-37,NEUS_CHICK,2.71E-58,Neuroserpin,PF00079.17,Serpin (serine protease inhibitor),7.6E-97,Serine_protease_inhibitor,Znev_11098,complete
+Signaling,SRPNs,TRINITY_DN208569_c16_g1,3.4E-30,4.1E-30,ILEUC_MOUSE,1.3E-63,Leukocyte elastase inhibitor C,PF00079.17,Serpin (serine protease inhibitor),1.7E-106,Serine_protease_inhibitor,Znev_07264,5prime_partial
+Signaling,SRPNs,TRINITY_DN208688_c6_g1,3.8E-30,4.8E-30,ILEU_BOVIN,1.09E-52,Leukocyte elastase inhibitor,PF00079.17,Serpin (serine protease inhibitor),3.6E-98,,,complete
+Signaling,SRPNs,TRINITY_DN210154_c3_g1,2E-22,5.5E-22,ILEU_BOVIN,1.21E-18,Leukocyte elastase inhibitor,PF00079.17,Serpin (serine protease inhibitor),3.4E-52,,,complete
+Signaling,SRPNs,TRINITY_DN210179_c0_g1,5.9E-41,7.5E-41,SPB11_MOUSE,7.67E-60,Serpin B11,PF00079.17,Serpin (serine protease inhibitor),4.7E-106,Serine_protease_inhibitor,Znev_11099,5prime_partial
+Signaling,SRPNs,TRINITY_DN211522_c5_g1,2E-33,2.5E-33,ILEU_BOVIN,6.46E-40,Leukocyte elastase inhibitor,PF00079.17,Serpin (serine protease inhibitor),2.6E-91,Serine_protease_inhibitor,Znev_06875,complete
+Signaling,SRPNs,TRINITY_DN212647_c8_g1,2E-25,2.5E-25,SERA_MANSE,5.91E-50,Alaserpin,PF00079.17,Serpin (serine protease inhibitor),1.4E-97,,,5prime_partial
+Signaling,SRPNs,TRINITY_DN213132_c5_g2,2.1E-27,2.7E-27,SPB8_BOVIN,1.2E-55,Serpin B8,PF00079.17,Serpin (serine protease inhibitor),1.7E-98,,,complete
+Signaling,SRPNs,TRINITY_DN153588_c2_g1,,,,,,,,,Serine_protease_inhibitor,Znev_11096,internal
+Signaling,SRPNs,TRINITY_DN43368_c0_g1,0.0000073,0.0000075,,,,PF00079.17,Serpin (serine protease inhibitor),0.00000018,Serine_protease_inhibitor,Znev_02802,5prime_partial
+Effector,SOD,TRINITY_DN197517_c0_g1,,,,,,,,,Superoxide_dismutase,Znev_15634,complete
+Effector,SOD,TRINITY_DN198605_c0_g1,,,,,,,,,Superoxide_dismutase,Znev_11634,complete
+Effector,SOD,TRINITY_DN203084_c7_g1,,,,,,,,,Superoxide_dismutase,Znev_12756,complete
+,,TRINITY_DN207003_c2_g1,,,,,,,,,T-cell_immunomodulatory_protein,Znev_04939,complete
+,,TRINITY_DN206180_c7_g1,,,,,,,,,IG-binding_protein,Znev_11186,5prime_partial
+,,TRINITY_DN201384_c0_g1,,,,,,,,,IG-domain_containing,Znev_15173,complete
+,,TRINITY_DN122670_c0_g1,,,,,,,,,IG-domain_containing,Znev_15173,internal
