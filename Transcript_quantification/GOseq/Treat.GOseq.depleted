@@ -1,0 +1,46 @@
+category	over_represented_pvalue	under_represented_pvalue	numDEInCat	numInCat	term	ontology	over_represented_FDR	under_represented_FDR	go_term
+GO:0010468	0.999676880760817	0.000931364470139054	8	5239	regulation of gene expression	BP	0.9999999999	0.9999999999	BP regulation of gene expression
+GO:0009889	0.998239527207292	0.00432224030132152	9	5072	regulation of biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of biosynthetic process
+GO:0031326	0.998009621825656	0.004843509739826	9	5041	regulation of cellular biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of cellular biosynthetic process
+GO:0051252	0.997711620136783	0.00575252554003286	8	4739	regulation of RNA metabolic process	BP	0.9999999999	0.9999999999	BP regulation of RNA metabolic process
+GO:0010556	0.99744825803156	0.00609685316806734	9	4952	regulation of macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of macromolecule biosynthetic process
+GO:2000112	0.99697334186029	0.00713902846272412	9	4912	regulation of cellular macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of cellular macromolecule biosynthetic process
+GO:0090304	0.996160321695028	0.00758189264688009	15	7793	nucleic acid metabolic process	BP	0.9999999999	0.9999999999	BP nucleic acid metabolic process
+GO:2001141	0.996679860559847	0.00810561733092085	8	4667	regulation of RNA biosynthetic process	BP	0.9999999999	0.9999999999	BP regulation of RNA biosynthetic process
+GO:1903506	0.996658567130577	0.00815342046397797	8	4664	regulation of nucleic acid-templated transcription	BP	0.9999999999	0.9999999999	BP regulation of nucleic acid-templated transcription
+GO:0006355	0.996388203028792	0.00875800400468977	8	4647	regulation of transcription, DNA-templated	BP	0.9999999999	0.9999999999	BP regulation of transcription, DNA-templated
+GO:0009059	0.995649211484976	0.00997579597045652	9	5280	macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP macromolecule biosynthetic process
+GO:0016070	0.994599423317128	0.0117603506825099	10	4944	RNA metabolic process	BP	0.9999999999	0.9999999999	BP RNA metabolic process
+GO:0003677	0.993663675431573	0.0140886928161797	9	6516	DNA binding	MF	0.9999999999	0.9999999999	MF DNA binding
+GO:0018130	0.993345494281643	0.014738868686638	9	5096	heterocycle biosynthetic process	BP	0.9999999999	0.9999999999	BP heterocycle biosynthetic process
+GO:0044451	1	0.0148796280515701	0	664	nucleoplasm part	CC	0.9999999999	0.9999999999	CC nucleoplasm part
+GO:0034645	0.992858212418381	0.0157242908571098	9	5147	cellular macromolecule biosynthetic process	BP	0.9999999999	0.9999999999	BP cellular macromolecule biosynthetic process
+GO:0043229	0.987961096850881	0.0180821477772376	38	12294	intracellular organelle	CC	0.9999999999	0.9999999999	CC intracellular organelle
+GO:0003723	0.997346534429588	0.0185379952107584	1	955	RNA binding	MF	0.9999999999	0.9999999999	MF RNA binding
+GO:1901362	0.990424476230371	0.0199012178998787	10	5212	organic cyclic compound biosynthetic process	BP	0.9999999999	0.9999999999	BP organic cyclic compound biosynthetic process
+GO:0034654	0.990635739647984	0.0201435070991757	9	4999	nucleobase-containing compound biosynthetic process	BP	0.9999999999	0.9999999999	BP nucleobase-containing compound biosynthetic process
+GO:0019219	0.989106593080517	0.0217769655745847	11	5282	regulation of nucleobase-containing compound metabolic process	BP	0.9999999999	0.9999999999	BP regulation of nucleobase-containing compound metabolic process
+GO:0003676	0.987217527200423	0.0222065255139821	18	8781	nucleic acid binding	MF	0.9999999999	0.9999999999	MF nucleic acid binding
+GO:0032774	0.990409247827878	0.0223594474620274	7	4148	RNA biosynthetic process	BP	0.9999999999	0.9999999999	BP RNA biosynthetic process
+GO:0044428	0.98904209235729	0.0232612772593175	9	2892	nuclear part	CC	0.9999999999	0.9999999999	CC nuclear part
+GO:1990234	1	0.0239119277259029	0	637	transferase complex	CC	0.9999999999	0.9999999999	CC transferase complex
+GO:0043228	0.989301490912668	0.0246935849962345	7	2584	non-membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC non-membrane-bounded organelle
+GO:0043232	0.989301490912668	0.0246935849962345	7	2584	intracellular non-membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular non-membrane-bounded organelle
+GO:0034061	1	0.0255632667506847	0	1441	DNA polymerase activity	MF	0.9999999999	0.9999999999	MF DNA polymerase activity
+GO:0016817	0.996123538912701	0.0255822508785183	1	1028	hydrolase activity, acting on acid anhydrides	MF	0.9999999999	0.9999999999	MF hydrolase activity, acting on acid anhydrides
+GO:0006996	0.990209059885208	0.0257490185570939	5	2021	organelle organization	BP	0.9999999999	0.9999999999	BP organelle organization
+GO:0016818	0.996004942372441	0.0262428546469983	1	1022	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	MF	0.9999999999	0.9999999999	MF hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides
+GO:0016462	0.995941055441643	0.0265973425614147	1	1017	pyrophosphatase activity	MF	0.9999999999	0.9999999999	MF pyrophosphatase activity
+GO:0019438	0.985473588275562	0.0291177664805221	10	5104	aromatic compound biosynthetic process	BP	0.9999999999	0.9999999999	BP aromatic compound biosynthetic process
+GO:0003964	1	0.0316339374647137	0	1386	RNA-directed DNA polymerase activity	MF	0.9999999999	0.9999999999	MF RNA-directed DNA polymerase activity
+GO:0016887	1	0.0316477993571276	0	625	ATPase activity	MF	0.9999999999	0.9999999999	MF ATPase activity
+GO:0017111	0.994850741269495	0.0324993898268444	1	980	nucleoside-triphosphatase activity	MF	0.9999999999	0.9999999999	MF nucleoside-triphosphatase activity
+GO:0043231	0.977896736770251	0.0330317712795264	32	10645	intracellular membrane-bounded organelle	CC	0.9999999999	0.9999999999	CC intracellular membrane-bounded organelle
+GO:0097659	0.985163484706774	0.0331241280440665	7	4035	nucleic acid-templated transcription	BP	0.9999999999	0.9999999999	BP nucleic acid-templated transcription
+GO:0006351	0.985148541484412	0.0331540777781037	7	4034	transcription, DNA-templated	BP	0.9999999999	0.9999999999	BP transcription, DNA-templated
+GO:0031090	0.985649165875763	0.0361616668247248	5	1969	organelle membrane	CC	0.9999999999	0.9999999999	CC organelle membrane
+GO:0044260	0.975691143408252	0.0369558104012523	28	9945	cellular macromolecule metabolic process	BP	0.9999999999	0.9999999999	BP cellular macromolecule metabolic process
+GO:0034622	1	0.038413901838031	0	555	cellular macromolecular complex assembly	BP	0.9999999999	0.9999999999	BP cellular macromolecular complex assembly
+GO:0010629	0.988435951791393	0.0442661010981004	2	1301	negative regulation of gene expression	BP	0.9999999999	0.9999999999	BP negative regulation of gene expression
+GO:0046483	0.969969050689137	0.0474600637059491	21	8391	heterocycle metabolic process	BP	0.9999999999	0.9999999999	BP heterocycle metabolic process
+GO:0005739	0.987128139991059	0.0484950374984267	2	1069	mitochondrion	CC	0.9999999999	0.9999999999	CC mitochondrion
