@@ -1,5 +1,3 @@
-# Blatta_orientalis
-
 Script.txt	Avaliable scripts for this whole study.
 Trinity.fasta.gz	The assembly produced from Trinity.
 Diamond_result	Folder of diamond blastp results against NCBI nr database, a python script for estimation of taxonomy composistion and contamination.
