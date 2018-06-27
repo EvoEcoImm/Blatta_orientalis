@@ -1,0 +1,312 @@
+"""Quality Control_Fastqc"""
+#! /bin/bash
+#SBATCH -J Bo_FastQC
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/data
+#SBATCH -o fq.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=4G
+#SBATCH --time=01:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+mkdir FastQC
+~/opt/FastQC/fastqc -o FastQC -t 4 *_R*.fastq.gz
+
+"""Assemble Transcriptome"""
+#! /bin/bash
+#SBATCH -J Bo_Assembly
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/data
+#SBATCH -o bl_or.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=87000
+#SBATCH --time=3-00:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+Trinity --seqType fq --max_memory 87G --left BoC1_S1_R1_001.fastq.gz,BoC2_S2_R1_001.fastq.gz,BoT1_S3_R1_001.fastq.gz,BoT2_S4_R1_001.fastq.gz --right BoC1_S1_R2_001.fastq.gz,BoC2_S2_R2_001.fastq.gz,BoT1_S3_R2_001.fastq.gz,BoT2_S4_R2_001.fastq.gz --CPU 12 --trimmomatic --normalize_reads --normalize_by_read_set --output trinity_bl_or &> logfile.txt
+
+""" Access Trinity assembly statistics"""
+cd trinity_bl_or/
+~/opt/trinityrnaseq-Trinity-v2.2.0/util/TrinityStats.pl Trinity.fasta
+
+"""Bowtie2 trimmed reads align to assembly"""
+#! /bin/bash
+#SBATCH -J Bo_Bowtie2
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/data/trinity_test/
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=15000
+#SBATCH --time=10:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+bowtie2-build -threads 4 Trinity.fasta Bo_Trinity
+bowtie2 -p 12 --local -x ./Trinity.fasta -q -1 BoC1_S1_R1_001.fastq.gz.PwU.qtrim.fq,BoC2_S2_R1_001.fastq.gz.PwU.qtrim.fq,BoT1_S3_R1_001.fastq.gz.PwU.qtrim.fq,BoT2_S4_R1_001.fastq.gz.PwU.qtrim.fq  -2 BoC1_S1_R2_001.fastq.gz.PwU.qtrim.fq,BoC2_S2_R2_001.fastq.gz.PwU.qtrim.fq,BoT1_S3_R2_001.fastq.gz.PwU.qtrim.fq,BoT2_S4_R2_001.fastq.gz.PwU.qtrim.fq |samtools view -Sb - | samtools sort -no - - > bowtie2.nameSorted.bam
+'''results in slurm file'''
+
+"""BUSCO test assembly completeness"""
+#! /bin/bash
+#SBATCH -J BUSCO
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/
+#SBATCH -o bo_BUSCO.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=40G
+#SBATCH --time=04:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+module load python
+python /home/shulinhe/opt/busco/BUSCO.py -o bo_busco -i Trinity.fasta -l /scratch/shulinhe/BLASTdb/arthropoda_odb9 -m tran
+
+"""Dimonad blast against nr database"""
+#! /bin/bash
+#SBATCH -J Bo_nr 
+#SBATCH -D /scratch/shulinhe/diamond_result
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulin.he@fu-berlin.de
+#SBATCH --mem=42000
+#SBATCH --time=1-00:00:00
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+diamond blastx -d /scratch/shulinhe/nr_database/nrnr -q Trinity.fasta -o bo.match -f 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send stitle staxids evalue --more-sensitive -c 1
+
+'''retrieve taxonomy from NCBITaxa by our script'''
+python Diamond_nr.py
+
+
+
+"""Annotation assembly"""
+wget https://data.broadinstitute.org/Trinity/Trinotate_v3_RESOURCES/uniprot_sprot.pep.gz
+gunzip uniprot_sprot.pep.gz
+makeblastdb -in uniprot_sprot.pep -dbtype prot
+'''Blastx'''
+#! /bin/bash
+#SBATCH -J bo_blastx
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/
+#SBATCH -o bo_blastx.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=18000
+#SBATCH --time=1-12:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+blastx -query bo_Trinity.fasta -db /scratch/shulinhe/uniprotdb/uniprot_sprot.pep -num_threads 12 -max_target_seqs 1 -outfmt 6 > blastx.outfmt6
+'''rRNA transcripts'''
+#! /bin/bash
+#SBATCH -J bo_rRNA
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/
+#SBATCH -o bo_rRNA.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem=70000
+#SBATCH --time=03:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+/home/shulinhe/src/Trinotate-3.0.1/util/rnammer_support/RnammerTranscriptome.pl --transcriptome Trinity.fasta --path_to_rnammer /home/shulinhe/opt/RNAMMER/rnammer
+'''ORF Prediction'''
+TransDecoder.LongOrfs -t Trinity.fasta -m 60
+'''Blastp'''
+#! /bin/bash
+#SBATCH -J bo_blastp
+#SBATCH -D /scratch/shulinhe/Sequence_2nd_run/
+#SBATCH -o bo_blastp.%j.out
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=12
+#SBATCH --mem=18000
+#SBATCH --time=10:00:00
+#SBATCH --mail-type=all
+#SBATCH --mail-user=shulinhe@zedat.fu-berlin.de
+blastp -query /scratch/shulinhe/Sequence_2nd_run/bo_Trinity.fasta.transdecoder_dir/longest_orfs.pep -db /scratch/shulinhe/uniprotdb/uniprot_sprot.pep -num_threads 12 -max_target_seqs 1 -evalue 0.0001 -outfmt 6 > blastp.outfmt6
+'''Pfam domain database build'''
+wget https://data.broadinstitute.org/Trinity/Trinotate_v3_RESOURCES/Pfam-A.hmm.gz
+gunzip Pfam-A.hmm.gz
+hmmpress Pfam-A.hmm
+'''Protein Domain search'''
+hmmscan --cpu 12 --domtblout TrinotatePFAM.out /path/to/Pfam-A.hmm longest_orfs.pep > pfam.log
+'''Protein Prediction'''
+Transdecoder.Predict -t Trinity.fasta --retain_pfam_hits TrinotatePFAM.out --retain_blastp_hits blastp.outfmt6
+'''Protein signal piptides'''
+signalp -f short -n signalp.out transdecoder.pep
+'''Transmembrane domains'''
+tmhmm --short < transdecoder.pep > tmhmm.out
+'''Load Results into db'''
+'''get map between transcripts and genes'''
+~/opt/trinityrnaseq-Trinity-v2.2.0/util/support_scripts/get_Trinity_gene_to_trans_map.pl Trinity.fasta > Trinity.fasta.gene_trans_map
+'''preformatted sqlite database download'''
+wget "https://data.broadinstitute.org/Trinity/Trinotate_v3_RESOURCES/Trinotate_v3.sqlite.gz" -O Trinotate.sqlite.gz
+gunzip Trinotate.sqlite.gz
+'''load search results into database'''
+Trinotate Trinotate.sqlite init --gene_trans_map Trinity.fasta.gene_trans_map --transcript_fasta Trinity.fasta --transdecode_pep transdecoder.pep
+Trinotate Trinotate.sqlite LOAD_swissprot_blastx blastx.outfmt6
+Trinotate Trinotate.sqlite LOAD_swissprot_blastp blastp.outfmt6
+Trinotate Trinotate.sqlite LOAD_pfam TrinotatePFAM.out
+Trinotate Trinotate.sqlite LOAD_signalp signalp.out
+Trinotate Trinotate.sqlite LOAD_tmhmm tmhmm.out
+Trinotate Trinotate.sqlite LOAD_rnammer Trinity.fasta.rnammer.gff
+'''report generate'''
+Trinotate Trinotate.sqlite report -E 0.001 > trinotate_annotation_report.xls
+
+
+"""immune gene identification"""
+'''---------HMMER----------'''
+'''build immune gene database'''
+fsa --stockholm --fast --noindel2 --logtime "$i".fasta > "$i".fasta.aligned
+sed '1a\#=GF ID $i' "$i".fasta.aligned >"$i".fixed
+cat *.fixed > orthodb.sto
+hmmbuild orthodb.hmm orthodb.sto
+cat *.fasta > orthodb.fa
+makeblastdb -in orthodb.fa -dbtype prot
+'''immune genes identification'''
+hmmsearch -o bo.out --domtblout bo.dom_out.tab --tblout bo.target_out.tab --noali --notestw -E 1 --domeE 1 --incE 0.001 --cpu 16 orthodb.hmm protein.fa
+blastx -query bo_Trinity.fasta -db orthodb.fa -num_threads 12 -evalue 0.001 -max_target_seqs 1 -outfmt 6 -out bo_orthodb.blastx.outfmt6
+blastp -query longest_orfs.pep -db orthodb.fa -num_threads 12 -evalue 0.001 -max_target_seqs 1 -outfmt 6 -out bo_orthodb.blastp.outfmt6
+'''immune genes curation from our script'''
+python Immune_db_predict.py -i bo.target_out.tab -x bo_orthodb.blastx.outfmt6 -p bo_orthodb.blastp.outfmt6 -o bo_Immunedb
+'''---------orthology analysis with Zootermopsis nevadensis------------'''
+mkdir aa_files; cp transdecoder.pep ./aa_files/.
+orthofinder -f aa_files -t 12
+'''immune genes extract from orthologue groups'''
+python Immune_ortho_predict.py
+'''------Final combination------'''
+python Immune_curate.py
+'''------Manually curation------'''
+
+
+
+"""DE analysis"""
+'''transcripts qualification'''
+'''prepare reference'''
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcripts Trinity.fasta --est_method kallisto --trinity_mode --prep_reference --output_dir ./
+'''align library'''
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcripts bo_Trinity.fasta --seqType fq --left bo_c_1_S1_R1_001.fastq.gz --right bo_c_1_S1_R2_001.fastq.gz --est_method kallisto --trinity_mode --output_dir bo_c_1
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcripts bo_Trinity.fasta --seqType fq --left bo_c_2_S9_R1_001.fastq.gz --right bo_c_2_S9_R2_001.fastq.gz --est_method kallisto --trinity_mode --output_dir bo_c_2
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcripts bo_Trinity.fasta --seqType fq --left bo_t_1_S2_R1_001.fastq.gz --right bo_t_1_S2_R2_001.fastq.gz --est_method kallisto --trinity_mode --output_dir bo_t_1
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/align_and_estimate_abundance.pl --transcripts bo_Trinity.fasta --seqType fq --left bo_t_2_S10_R1_001.fastq.gz --right bo_t_2_S10_R2_001.fastq.gz --est_method kallisto --trinity_mode --output_dir bo_t_2
+'''transcript to gene matrix'''
+awk '{ print $2 " " $1}' Trinity.fasta.gene_trans_map | sed '1 i\TXNAME\tGENEID' | sed 's/ /\t/g' > tx2gene.tsv
+'''extract protist and bacteria genes'''
+cut -f1 nr_gene_contamination|sort -u > bo_bac_protist
+
+R
+library(tximport)
+library(readr)
+library(tidyr)
+library(dplyr)
+library(cowplot)
+library(tibble)
+library(DESeq2)
+'''this assumes you are the directory containing the kallisto output'''
+dir <- "./"
+run <- c("Bo_C_1", "Bo_C_2", "Bo_T_1", "Bo_T_2")
+files <- file.path(dir, run, "abundance.h5")
+names(files) <- run
+all(file.exists(files))
+tx2gene <- read_tsv("tx2gene.tsv")
+txi <- tximport(files, type = "kallisto", tx2gene = tx2gene)
+'''this derives the sample names from the count dataframe - safer than doing it manually'''
+sampleTable <- as.data.frame(colnames(txi$counts))
+colnames(sampleTable) <- "library"
+sampleTable <- separate(sampleTable, library, into = c("species", "treatment"), sep = "_", remove = FALSE, extra = "drop")
+sampleTable$treatment <- gsub("^C$", "control", sampleTable$treatment)
+sampleTable$treatment <- gsub("^T$", "treatment", sampleTable$treatment)
+rownames(sampleTable) <- sampleTable$library
+'''drop variables that are not be fitted'''
+sampleTable <- dplyr::select(sampleTable, -library, -species)
+
+dds <- DESeqDataSetFromTximport(txi, sampleTable, ~ treatment)
+
+'''filter bacteria and protist genes'''
+bpgene<- readLines("bo_bac_protist")
+dds<- dds[!rownames(dds) %in% bpgene,]
+
+dds <- DESeq(dds, parallel = TRUE, fitType = "local")
+resLFC <- lfcShrink(dds, coef=2)
+plotMA(resLFC, ylim=c(-7,7))
+dev.print(pdf,"MAplot.pdf")
+
+rld <- rlog(dds, fitType = "local")
+rldf <- assay(rld) %>% as.data.frame
+pca <- prcomp(t(rldf))
+'''scree plot of PCs'''
+plot(pca)
+pcax <- as.data.frame(pca$x)
+pcax$treatment <- sampleTable$treatment
+prop <- summary(pca) %>% as.list %>% .$importance %>% t %>% as_tibble %>%
+  .[1:3,] %>% dplyr::select(prop = starts_with("Proportion")) %>% .$prop *100
+pc12 <- ggplot(pcax, aes(x=PC1, y=PC2, colour=treatment)) + geom_point(size=5) +
+  xlab(paste("PC1: ", round(prop[1]), "% variance", sep = "")) +
+  ylab(paste("PC2: ", round(prop[2]), "% variance", sep = "")) +
+  scale_color_discrete(guide=FALSE)
+pc13 <- ggplot(pcax, aes(x=PC1, y=PC3, colour=treatment)) + geom_point(size=5) +
+  xlab(paste("PC1: ", round(prop[1]), "% variance", sep = "")) +
+  ylab(paste("PC3: ", round(prop[3]), "% variance", sep = "")) +
+  scale_color_discrete(guide=FALSE)
+pc23 <- ggplot(pcax, aes(x=PC2, y=PC3, colour=treatment)) + geom_point(size=5) +
+  xlab(paste("PC2: ", round(prop[2]), "% variance", sep = "")) +
+  ylab(paste("PC3: ", round(prop[3]), "% variance", sep = "")) +
+  theme(legend.justification=c(1,0), legend.position=c(1,0))
+plot_grid(pc12, pc13, pc23, nrow = 1)
+
+res <- results(dds, alpha = 0.05) %>% subset(padj < 0.05 & abs(log2FoldChange) > 1)
+res_tvsc <- results(dds, alpha = 0.05, tidy = TRUE, contrast = c("treatment", "treatment", "control"))
+res_TvsC_sig_up <- dplyr::filter(as.data.frame(res_tvsc), padj < 0.05 & log2FoldChange > 1)
+write_csv(res_TvsC_sig_up,"./reres_TvsC_sig_up")
+res_TvsC_sig_down <- dplyr::filter(as.data.frame(res_tvsc), padj < 0.05 & log2FoldChange < -1)
+write_csv(res_TvsC_sig_down,"./reres_TvsC_sig_down")
+
+
+'''plot immune gene expression data'''
+Immune<-read.table("../Immune_gene_prediction/Immune.csv",header=T,sep="\t")
+Immune_up<- res_TvsC_sig_up[res_TvsC_sig_up$row %in% Immune$Gene_ID,]
+Immune_down<- res_TvsC_sig_down[res_TvsC_sig_down$row %in% Immune$Gene_ID,]
+library(pheatmap)
+immupe<- assay(rld)[as.character(Immune_up[,c("row")]),]
+immude<- assay(rld)[as.character(Immune_down[,c("row")]),]
+immupeod<- order(rowSums(immupe[,c(3,4)]),decreasing=T)
+immudeod<- order(rowSums(immude[,c(3,4)]),decreasing=T)
+refe<- assay(rld)["TRINITY_DN195194_c0_g1",]
+total<- rbind(refe,immupe[immupeod,], immude[immudeod,])
+totalname<- Immune[Immune$Gene_ID %in% rownames(total),]
+totalname<- dplyr::select(totalname, "Gene_ID","Blastp_target_full_name")
+total1<- cbind(total,Immune[match(rownames(total),Immune$Gene_ID),][,c(2,8)])
+pheatmap(total,cluster_rows=F, annotation_col=sampleTable)
+dev.print(pdf,"regulate_immune_heatmap.pdf")
+
+"""GO analysis"""
+'''extract go'''
+grep -F -f bo_bac_protist ../bo_trinotate_annotation_report.xls -w -v > bo_host_trinotation_report
+~/opt/Trinotate-v3.1.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls bo_host_trinotation_report -G --include_ancestral_terms > go_annotations.txt
+'''factor labelling'''
+cut -f1 reres_TvsC_sig_up -d ","|sed '1d'|awk '{print "Treat" "\t" $1}' > factor_labelling.txt
+cut -f1 reres_TvsC_sig_down -d ","| sed '1d'|awk '{print "Control" "\t" $1}' >> factor_labelling.txt
+'''gene length file'''
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/misc/fasta_seq_length.pl ../Trinity.fasta > bo_Trinity.fasta.seq_lens
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/abundance_estimates_to_matrix.pl --est_method kallisto --gene_trans_map ../bo_Trinotate/bo_Trinity.fasta.gene_trans_map --out_prefix Bo --name_sample_by_basedir Bo_C_1/abundance.tsv Bo_C_2/abundance.tsv Bo_T_1/abundance.tsv Bo_T_2/abundance.tsv
+~/opt/trinityrnaseq-Trinity-v2.5.1/util/misc/TPM_weighted_gene_length.py --gene_trans_map ../bo_Trinotate/bo_Trinity.fasta.gene_trans_map --trans_lengths bo_Trinity.fasta.seq_lens --TPM_matrix Bo.isoform.TMM.EXPR.matrix > bo_Trinity.gene_lengths.txt
+grep -F -f bo_bac_protist bo_Trinity.gene_lengths.txt -w -v > bo_nbp_Trinity.gene_lengths.txt
+'''background file'''
+cut -f1 bo_nbp_Trinity.gene_lengths.txt > nbp_backgroup.txt
+'''goseq in Trinity'''
+~/opt/trinityrnaseq-Trinity-v2.5.1/Analysis/DifferentialExpression/run_GOseq.pl --factor_labeling factor_labelling.txt --GO_assignments go_annotations.txt --lengths bo_nbp_Trinity.gene_lengths.txt --background nbp_backgroup.txt
+
+'''------plot_GO------'''
+cut -f1-9 Treat.GOseq.enriched |grep BP |awk 'BEGIN{FS="\t"}$8<=0.05' > treat.goseq_BP.cut
+cut -f1-9 Treat.GOseq.enriched |grep MF |awk 'BEGIN{FS="\t"}$8<=0.05' > treat.goseq_MF.cut
+cut -f1-9 Control.GOseq.enriched |grep BP |awk 'BEGIN{FS="\t"}$8<=0.05' > control.goseq_BP.cut
+cut -f1-9 Control.GOseq.enriched |grep MF |awk 'BEGIN{FS="\t"}$8<=0.05' > control.goseq_MF.cut
+'''copy GOs to REVIGO in order to reduce GO redanduncy'''
+'''edit redanduncy GOs and export file "REVIGOs"'''
+grep -F -f REVIGOs Treat.GOseq.enriched > b
+R
+library(readr)
+gos<- read.csv("b",header=F,sep="\t")
+gos$V2<- -log10(gos$V8)
+gos$V3<- gos$V4/gos$V5
+gobps<- gos[gos$V7=="BP",]
+gomfs<- gos[gos$V7=="MF",]
+'''dotplot'''
+plot(gobps$V2 ~ gobps$V3, cex=log2(gobps$V4),xlab="Proportation of regulated genes",ylab="-log10(adjust p-value)",bty="l",cex.lab=2,cex.axis=1.5,tcl=0.3,lwd=2, col="red",las=1,xlim=c(0,0.5))
+points(gomfs$V2 ~ gomfs$V3, cex=log2(gomfs$V4),cex.lab=2,cex.axis=1.5,tcl=0.3,lwd=2, col="blue")
+legend(0.30,14.5, legend=c("BP","MF"), col=c("red","blue"),inset=c(-0.2,0.2),pch=15, pt.cex=4,title="GO Category",bty="n",y.intersp=1.5,x.intersp=2,cex=1.5,xpd=T)
+legend(0.25,12, legend=c("5","10","20"), inset=c(-0.2,0.2),pch=1, pt.cex=c(2.3,3.3,4.3),title="Number of regulated genes",bty="n", y.intersp= 1.5,x.intersp=1.5, cex=1.5,xpd=T)
+dev.print(pdf,"GO_plot.pdf")
+write_csv(gos,"./GO_plot.csv")
